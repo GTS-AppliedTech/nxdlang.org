@@ -392,7 +392,7 @@ Trait objects use identity equality, not value equality.
 
 
 
-##Appendix C — Ownership Patterns
+## Appendix C — Ownership Patterns
 
 NXD uses a lightweight ownership model compatible with Nim ARC/ORC, Elixir GC, and D RAII/GC.
 
@@ -1141,7 +1141,7 @@ end
 
 #### D — interface‑based trait object (future NXD pattern)
 
-If you later allow BOX<SERIALIZABLE> as a dynamic trait object:
+If you later allow `BOX<SERIALIZABLE>` as a dynamic trait object:
 
 ```d
 TRAIT SERIALIZABLE {
