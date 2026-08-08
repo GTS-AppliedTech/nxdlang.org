@@ -48,6 +48,7 @@ That rule is the language’s foundation. It gives NXD a clear, stable syntax th
 
 ### Operators include both symbols and words:
 
+```nxd
 • arithmetic: + - * / %
 • logical: AND OR NOT
 • comparison: == != > < >= <=
@@ -55,7 +56,7 @@ That rule is the language’s foundation. It gives NXD a clear, stable syntax th
 • pipeline: |>
 • concatenation: ++
 • pattern matching: =>
-
+```
 ### Example:
 
 ### MODULE math

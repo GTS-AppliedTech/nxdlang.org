@@ -232,6 +232,7 @@ switch (n) {
 5. Operator Mapping
 
 #### NXD D	
+`
 ADD	+	
 SUB	-	
 MUL	*	
@@ -246,15 +247,16 @@ LTE	<=
 AND	&&	
 OR	||	
 NOT	!	
-
+`
 
 Ownership operators:
 
-#### NXD	D	
+#### NXD	D
+`
 MOVE	assignment (copy or move depending on type)	
 CLONE	.dup or custom deep copy	
 BORROW	reference (ref)	
-
+`
 
 Pipeline operators:
 
@@ -288,7 +290,7 @@ none	null
 
 #### Map:
 
-{ "a": 1 } → ["a": 1]
+`{ "a": 1 } → ["a": 1]`
 
 
 7. Concurrency Mapping

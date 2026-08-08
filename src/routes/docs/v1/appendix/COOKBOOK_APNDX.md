@@ -346,16 +346,16 @@ FUNC LOG_OBJ(X: BOX<SERIALIZABLE>):
 
 #### B.3.1 Type erasure
 
-BOX<SERIALIZABLE> hides the concrete type.
+`BOX<SERIALIZABLE>` hides the concrete type.
 Only trait methods are accessible.
 
 #### B.3.2 Lifetime
 
-A BOX<T> owns the underlying value unless constructed with BORROW.
+A `BOX<T>` owns the underlying value unless constructed with BORROW.
 
 #### B.3.3 Borrowed trait objects
 
-LET B SET BOX<SERIALIZABLE>(BORROW U)
+`LET B SET BOX<SERIALIZABLE>(BORROW U)`
 
 Borrowed trait objects do not own the underlying value.
 

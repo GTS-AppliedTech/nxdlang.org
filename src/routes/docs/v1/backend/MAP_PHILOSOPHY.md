@@ -137,7 +137,7 @@ Backends implement it differently but consistently.
 #### Backends map them as:
 
 • Nim → Result[T], Option[T], try/except
-• Elixir → {:ok, v}, {:error, msg}, try/rescue
+• Elixir → `{:ok, v}, {:error, msg}, try/rescue`
 • D → Result!T, Nullable!T, try/catch
 
 

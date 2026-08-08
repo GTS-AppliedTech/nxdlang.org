@@ -131,22 +131,22 @@ EXPORT ALL
 # Backend mapping
 
 Nim
-
+```nim
 proc area*() = ...
 type Point* = object ...
-
+```
 
 Elixir
-
+```elixir
 def area(...), do: ...
 defstruct [:x, :y]   # structs are public by default
-
+```
 
 D
-
+```d
 public double area(...) { ... }
 public struct Point { ... }
-
+```
 
 
 4. Package system
@@ -245,7 +245,7 @@ NXD enforces these rules at compile time.
 8. Example module
 
 NXD
-
+```nxd
 MODULE math.geometry
 
 EXPORT TYPE POINT
@@ -255,22 +255,22 @@ TYPE POINT { X: float, Y: float }
 
 FUNC AREA(P):
     RETURN P.X MUL P.Y
-
+```
 
 Nim
-
-# math/geometry.nim
+```nim
+ math/geometry.nim
 type Point* = object
   x: float
   y: float
 
 proc area*(p: Point): float =
   p.x * p.y
-
+```
 
 Elixir
-
-# math/geometry.ex
+```elixir
+math/geometry.ex
 defmodule Math.Geometry do
   defstruct [:x, :y]
 
@@ -278,10 +278,10 @@ defmodule Math.Geometry do
     x * y
   end
 end
-
+```
 
 D
-
+```d
 // math/geometry.d
 module math.geometry;
 
@@ -293,7 +293,7 @@ public struct Point {
 public double area(Point p) {
     return p.x * p.y;
 }
-
+```
 
 
 ## Summary

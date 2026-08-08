@@ -1,5 +1,7 @@
 # USER SERVICE (CRUD + RESULT + OPTION)
 
+JSON_LD
+```jsonld
 {
   "@context": "https://schema.nxd.dev/example",
   "example_id": "nxd_medium_01_user_service",
@@ -7,6 +9,7 @@
   "layer": "medium",
   "features": ["structs", "maps", "option", "result", "error-handling"]
 }
+```
 
 ### NXD
 ```nxd
