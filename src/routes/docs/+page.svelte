@@ -1,0 +1,326 @@
+<script>
+  /** @type {Record<string, string>} */
+  const docModules = import.meta.glob('./**/*.{md,txt}', { eager: true, import: 'default' });
+
+  /** @type {Record<string, string>} */
+  const sectionLabels = {
+    v1: 'Version 1',
+    compiler: 'Compiler',
+    backend: 'Backend',
+    runtime: 'Runtime',
+    security: 'Security',
+    'language-guide': 'Language Guide',
+    ecosystem: 'Ecosystem',
+    appendix: 'Appendix',
+    golden_examples: 'Golden Examples',
+    tiny_examples: 'Tiny Examples',
+    medium_examples: 'Medium Examples',
+    large_examples: 'Large Examples',
+    xlarge_examples: 'XLarge Examples',
+    referance_archetecture: 'Reference Architecture'
+  };
+
+  /** @type {Record<string, string>} */
+  const sectionDescriptions = {
+    compiler: 'Compiler frontend, IR, lowering, and architecture guidance.',
+    backend: 'Backend mapping and target-specific code generation notes.',
+    runtime: 'Runtime semantics, execution flow, and concurrency model.',
+    security: 'Security invariants, propagation, and safety claims.',
+    'language-guide': 'Language syntax, typing, grammar, and semantics.',
+    ecosystem: 'Package management, standard library, and build system notes.',
+    appendix: 'Reference appendices, cookbooks, and examples.',
+    golden_examples: 'Reference examples organized by size and complexity.',
+    tiny_examples: 'Compact examples that highlight small language patterns.',
+    medium_examples: 'Mid-sized examples that demonstrate common constructs.',
+    large_examples: 'Larger examples that exercise more of the language.',
+    xlarge_examples: 'Very large examples for architecture and scale testing.',
+    referance_archetecture: 'Reference architecture snapshots and design notes.'
+  };
+
+  /** @type {Record<string, string>} */
+  const anchorOverrides = {
+    'v1/compiler/ARCHITECTURE.md': 'compiler-architecture',
+    'v1/compiler/IR_LOWERING.md': 'ir-design',
+    'v1/backend/NXD-NIM_MAPPING.md': 'backend-mapping',
+    'v1/backend/NXD-ELIXER_MAPPING.md': 'backend-mapping',
+    'v1/backend/NXD-D_MAPPING.md': 'backend-mapping',
+    'v1/appendix/COOKBOOK_APNDX.md': 'cookbook',
+    'v1/language-guide': 'language-guide',
+    'v1/appendix/golden_examples': 'examples'
+  };
+
+  /**
+   * @param {string} filePath
+   * @param {string} fileName
+   */
+  function titleFromFile(filePath, fileName) {
+    const content = /** @type {string | undefined} */ (docModules[filePath]);
+    const headingMatch = content?.match(/^#\s+(.+)$/m);
+    if (headingMatch) return headingMatch[1].trim();
+
+    const cleanName = fileName.replace(/\.(md|txt)$/i, '').replace(/[-_]/g, ' ');
+    return cleanName.replace(/\b\w/g, (letter) => letter.toUpperCase());
+  }
+
+  /**
+   * @param {string} filePath
+   * @param {string} fileName
+   */
+  function describeDocument(filePath, fileName) {
+    const lower = filePath.toLowerCase();
+    const base = fileName.toLowerCase();
+
+    if (lower.includes('vision')) return 'High-level language vision, project goals, and platform direction.';
+    if (base.includes('architecture')) return 'Architecture overview and design context for the compiler or runtime.';
+    if (base.includes('ir')) return 'Intermediate representation and lowering rules.';
+    if (base.includes('lower')) return 'Lowering strategy and transformation details.';
+    if (base.includes('lexical')) return 'Lexical grammar and tokenization rules.';
+    if (base.includes('mapping')) return 'Target backend mapping and implementation notes.';
+    if (base.includes('philosophy')) return 'Mapping philosophy and target-specific rationale.';
+    if (base.includes('concurrency')) return 'Concurrency and scheduling semantics.';
+    if (base.includes('execution')) return 'Runtime execution flow and semantics.';
+    if (base.includes('channel')) return 'Channel semantics and communication behavior.';
+    if (base.includes('runtime')) return 'Runtime architecture and execution model details.';
+    if (base.includes('security')) return 'Security invariants and safety guarantees.';
+    if (base.includes('invariant')) return 'Safety invariant descriptions and validation notes.';
+    if (base.includes('error')) return 'Error handling and failure-mode documentation.';
+    if (base.includes('type')) return 'Typing, casting, and type-system rules.';
+    if (base.includes('grammar')) return 'Grammar structure and language syntax details.';
+    if (base.includes('generic')) return 'Generic constraints and instantiation rules.';
+    if (base.includes('equality')) return 'Equality and mutation semantics.';
+    if (base.includes('contribut')) return 'Contribution workflow, governance, and development guidance.';
+    if (base.includes('license')) return 'Project licensing and distribution terms.';
+    if (base.includes('cookbook')) return 'Cookbook-style reference material and practical examples.';
+    if (base.includes('standard')) return 'Standard library and language runtime support details.';
+    if (base.includes('build')) return 'Build system requirements and packaging guidance.';
+    if (base.includes('package')) return 'Module and package management specifications.';
+    if (base.includes('example')) return 'Reference example demonstrating a language feature or pattern.';
+    if (base.includes('ref_arch')) return 'Reference architecture snapshot used for design comparison.';
+
+    return 'Technical reference material for the surrounding subsystem.';
+  }
+
+  /**
+   * @param {string} value
+   */
+  function slugify(value) {
+    return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  /**
+   * @param {string} segment
+   */
+  function humanize(segment) {
+    const label = sectionLabels[segment] || segment.replace(/[-_]/g, ' ');
+    return label.replace(/\b\w/g, (char) => char.toUpperCase());
+  }
+
+  function buildTree() {
+    /** @type {{ children: Record<string, any>, files: any[] }} */
+    const root = { children: {}, files: [] };
+
+    Object.entries(docModules).forEach(([modulePath, content]) => {
+      const cleanPath = modulePath.replace(/^\.\//, '').replace(/\\/g, '/');
+      const segments = cleanPath.split('/');
+      const fileName = segments.pop();
+      const parts = segments;
+
+      /** @type {{ children: Record<string, any>, files: any[] }} */
+      let current = root;
+      parts.forEach((segment) => {
+        if (!current.children[segment]) {
+          current.children[segment] = {
+            name: segment,
+            title: humanize(segment),
+            description: sectionDescriptions[segment] || '',
+            children: {},
+            files: []
+          };
+        }
+        current = current.children[segment];
+      });
+
+      current.files.push({
+        path: cleanPath,
+        fileName,
+        title: titleFromFile(cleanPath, fileName || ''),
+        description: describeDocument(cleanPath, fileName || ''),
+        anchor: anchorOverrides[cleanPath] || anchorOverrides[cleanPath.replace(/\/(?:[^/]+)$/,'')] || slugify(titleFromFile(cleanPath, fileName || ''))
+      });
+    });
+
+    return root;
+  }
+
+  const docTree = buildTree();
+  /** @type {any[]} */
+  const topLevelSections = Object.values(docTree.children).sort((a, b) => a.title.localeCompare(b.title));
+</script>
+
+<svelte:head>
+  <title>Documentation Index</title>
+  <meta name="description" content="An index of the available NXD documentation files and sections." />
+</svelte:head>
+
+<section class="docs-index-page">
+  <header class="intro">
+    <p class="eyebrow">Documentation Index</p>
+    <h1>Documentation Index</h1>
+    <p class="lead">
+      Browse the available NXD reference documentation by section and sub-section. The index below covers the current documentation set under the docs tree.
+    </p>
+  </header>
+
+  <div class="summary-card">
+    <p><strong>Coverage:</strong> {Object.values(docModules).length} documents indexed across the available documentation sections.</p>
+    <p>Sections below include compiler notes, backend mappings, runtime semantics, security specifications, language guidance, ecosystem guidance, and appendix examples.</p>
+  </div>
+
+  <div class="section-list">
+    {#each topLevelSections as section}
+      <section class="section-card" id={section.name === 'v1' ? 'version-1' : slugify(section.title)}>
+        <div class="section-header">
+          <h2>{section.title}</h2>
+          {#if section.description}
+            <p>{section.description}</p>
+          {/if}
+        </div>
+
+        {#if section.files.length}
+          <ul class="doc-list">
+            {#each section.files as doc}
+              <li id={doc.anchor} class="doc-card">
+                <h3>{doc.title}</h3>
+                <p>{doc.description}</p>
+              </li>
+            {/each}
+          </ul>
+        {/if}
+
+        {#if Object.keys(section.children).length}
+          <div class="subsections">
+            {#each Object.values(section.children).sort((a, b) => a.title.localeCompare(b.title)) as child}
+              <div class="subsection" id={child.name === 'golden_examples' ? 'examples' : slugify(child.title)}>
+                <h3>{child.title}</h3>
+                {#if child.description}
+                  <p>{child.description}</p>
+                {/if}
+
+                {#if child.files.length}
+                  <ul class="doc-list nested">
+                    {#each child.files as doc}
+                      <li id={doc.anchor} class="doc-card">
+                        <h3>{doc.title}</h3>
+                        <p>{doc.description}</p>
+                      </li>
+                    {/each}
+                  </ul>
+                {/if}
+
+                {#if Object.keys(child.children).length}
+                  <div class="subsection-children">
+                    {#each Object.values(child.children).sort((a, b) => a.title.localeCompare(b.title)) as grandChild}
+                      <div class="subsection" id={grandChild.name === 'golden_examples' ? 'examples' : slugify(grandChild.title)}>
+                        <h4>{grandChild.title}</h4>
+                        {#if grandChild.files.length}
+                          <ul class="doc-list nested">
+                            {#each grandChild.files as doc}
+                              <li id={doc.anchor} class="doc-card">
+                                <h3>{doc.title}</h3>
+                                <p>{doc.description}</p>
+                              </li>
+                            {/each}
+                          </ul>
+                        {/if}
+                      </div>
+                    {/each}
+                  </div>
+                {/if}
+              </div>
+            {/each}
+          </div>
+        {/if}
+      </section>
+    {/each}
+  </div>
+</section>
+
+<style>
+  .docs-index-page {
+    padding: 2rem 1.25rem 3rem;
+    color: #f5f7fb;
+  }
+
+  .intro {
+    max-width: 760px;
+    margin-bottom: 1.25rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    color: #7ad7ff;
+  }
+
+  h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(2rem, 3vw, 2.6rem);
+  }
+
+  .lead {
+    line-height: 1.7;
+    color: #dce7f5;
+  }
+
+  .summary-card,
+  .section-card,
+  .subsection {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 1rem;
+    padding: 1.1rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-header h2,
+  .subsection h3,
+  .subsection h4,
+  .doc-card h3 {
+    margin: 0 0 0.45rem;
+  }
+
+  .section-header p,
+  .subsection p,
+  .doc-card p {
+    margin: 0;
+    line-height: 1.65;
+    color: #dce7f5;
+  }
+
+  .doc-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .doc-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.8rem;
+    padding: 0.9rem 1rem;
+    background: rgba(7, 17, 31, 0.55);
+  }
+
+  .nested {
+    margin-top: 0.75rem;
+  }
+
+  .subsection-children {
+    margin-top: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+  }
+</style>
