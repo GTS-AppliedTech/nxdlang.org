@@ -277,6 +277,8 @@
 <style>
   .docs-index-page {
     padding: 2rem 1.25rem 3rem;
+    min-height: 100vh;
+    background: #0f172a;
     color: #f5f7fb;
   }
 
@@ -300,14 +302,15 @@
 
   .lead {
     line-height: 1.7;
-    color: #dce7f5;
+    color: #f5f7fb;
   }
 
   .summary-card,
   .section-card,
-  .subsection {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+  .subsection,
+  .doc-card {
+    background: #13293b;
+    border: 1px solid #334155;
     border-radius: 1rem;
     padding: 1.1rem 1.2rem;
     margin-bottom: 1rem;
@@ -325,7 +328,7 @@
   .doc-card p {
     margin: 0;
     line-height: 1.65;
-    color: #dce7f5;
+    color: #f5f7fb;
   }
 
   .doc-list {
@@ -337,17 +340,19 @@
   }
 
   .doc-card {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 0.8rem;
     padding: 0;
-    background: rgba(7, 17, 31, 0.55);
   }
 
   .doc-link {
     display: block;
     padding: 0.9rem 1rem;
-    color: inherit;
+    color: #7ad7ff;
     text-decoration: none;
+  }
+
+  .doc-link:hover,
+  .docs-index-page a:hover {
+    color: #38bdf8;
   }
 
   .nested {
@@ -357,6 +362,6 @@
   .subsection-children {
     margin-top: 0.75rem;
     padding-left: 0.75rem;
-    border-left: 1px solid rgba(255, 255, 255, 0.16);
+    border-left: 1px solid #334155;
   }
 </style>
