@@ -25,9 +25,9 @@
     </p>
 
     <div class="actions">
-      <a href="/docs#compiler-architecture">View Compiler Architecture</a>
-      <a href="/docs#ir-design">View IR Design</a>
-      <a href="/docs#backend-mapping">View Backend Mapping</a>
+      <a href="/docs/v1/compiler/architecture">View Compiler Architecture</a>
+      <a href="/docs/v1/compiler/ir-lowering">View IR Design</a>
+      <a href="/docs/v1/backend/nxd-nim-mapping">View Backend Mapping</a>
     </div>
   </div>
 

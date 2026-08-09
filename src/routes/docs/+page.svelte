@@ -39,29 +39,29 @@
 
   /** @type {Record<string, string>} */
   const anchorOverrides = {
-    'v1/compiler/ARCHITECTURE.md': 'compiler-architecture',
-    'v1/compiler/IR_LOWERING.md': 'ir-design',
-    'v1/backend/NXD-NIM_MAPPING.md': 'backend-mapping',
-    'v1/backend/NXD-ELIXER_MAPPING.md': 'backend-mapping',
-    'v1/backend/NXD-D_MAPPING.md': 'backend-mapping',
-    'v1/appendix/COOKBOOK_APNDX.md': 'cookbook',
-    'v1/language-guide': 'language-guide',
-    'v1/appendix/golden_examples': 'examples'
+    'v1/compiler/ARCHITECTURE.md': 'docs',
+    'v1/compiler/IR_LOWERING.md': 'docs',
+    'v1/backend/NXD-NIM_MAPPING.md': 'docs',
+    'v1/backend/NXD-ELIXER_MAPPING.md': 'docs',
+    'v1/backend/NXD-D_MAPPING.md': 'docs',
+    'v1/appendix/COOKBOOK_APNDX.md': 'docs',
+    'v1/language-guide': 'docs',
+    'v1/appendix/golden_examples': 'docs'
   };
 
   /** @type {Record<string, string>} */
   const routeOverrides = {
-    'v1/VISION.md': '/docs#vision',
-    'v1/CONTRIBUTING.md': '/docs#contributing',
-    'v1/LICENSE.txt': '/docs#license',
-    'v1/compiler/ARCHITECTURE.md': '/docs#compiler-architecture',
-    'v1/compiler/IR_LOWERING.md': '/docs#ir-design',
-    'v1/backend/NXD-NIM_MAPPING.md': '/docs#backend-mapping',
-    'v1/backend/NXD-ELIXER_MAPPING.md': '/docs#backend-mapping',
-    'v1/backend/NXD-D_MAPPING.md': '/docs#backend-mapping',
-    'v1/appendix/COOKBOOK_APNDX.md': '/docs#cookbook',
-    'v1/language-guide': '/docs#language-guide',
-    'v1/appendix/golden_examples': '/docs#examples'
+    'v1/VISION.md': '/docs',
+    'v1/CONTRIBUTING.md': '/docs',
+    'v1/LICENSE.txt': '/docs',
+    'v1/compiler/ARCHITECTURE.md': '/docs',
+    'v1/compiler/IR_LOWERING.md': '/docs',
+    'v1/backend/NXD-NIM_MAPPING.md': '/docs',
+    'v1/backend/NXD-ELIXER_MAPPING.md': '/docs',
+    'v1/backend/NXD-D_MAPPING.md': '/docs',
+    'v1/appendix/COOKBOOK_APNDX.md': '/docs',
+    'v1/language-guide': '/docs',
+    'v1/appendix/golden_examples': '/docs'
   };
 
   /**
