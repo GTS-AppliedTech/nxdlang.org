@@ -92,7 +92,7 @@
 <style>
   .doc-view-page {
     padding: 2rem 1.25rem 3rem;
-    color: #f5f7fb;
+    color: #1f2937;
   }
 
   .doc-header {
@@ -133,9 +133,9 @@
   }
 
   .empty-state {
-    padding: 1.25rem;
+    padding: 1.1rem;
     border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
   }
 </style>
