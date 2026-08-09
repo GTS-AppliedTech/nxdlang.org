@@ -1,34 +1,32 @@
 /// <reference types="vitest/config" />
+
 import { defineConfig } from 'vitest/config';
 import { playwright } from '@vitest/browser-playwright';
-import { mdsvex } from 'mdsvex';
 import tailwindcss from '@tailwindcss/vite';
 import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-const dirname =
-	typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
 
-// More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
+const dirname =
+	typeof __dirname !== 'undefined'
+		? __dirname
+		: path.dirname(fileURLToPath(import.meta.url));
+
 export default defineConfig({
 	plugins: [
 		tailwindcss(),
 		sveltekit({
 			compilerOptions: {
-				// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
 				runes: ({ filename }) =>
-					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
+					filename.split(/[/\\]/).includes('node_modules')
+						? undefined
+						: true
 			},
-			adapter: adapter(),
-			preprocess: [
-				mdsvex({
-					extensions: ['.svx', '.md']
-				})
-			],
-			extensions: ['.svelte', '.svx', '.md']
+			adapter: adapter()
 		})
 	],
+
 	test: {
 		expect: {
 			requireAssertions: true
@@ -60,8 +58,7 @@ export default defineConfig({
 					include: ['src/**/*.{test,spec}.{js,ts}'],
 					exclude: ['src/**/*.svelte.{test,spec}.{js,ts}']
 				}
-			},
-			
+			}
 		]
 	}
 });

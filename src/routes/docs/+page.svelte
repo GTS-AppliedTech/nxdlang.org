@@ -1,6 +1,6 @@
 <script>
   /** @type {Record<string, string>} */
-  const docModules = import.meta.glob('./**/*.{md,txt}', { eager: true, import: 'default' });
+  const docModules = import.meta.glob('./**/*.{md,txt}', { eager: true, query: '?raw', import: 'default'});
 
   /** @type {Record<string, string>} */
   const sectionLabels = {
@@ -47,6 +47,21 @@
     'v1/appendix/COOKBOOK_APNDX.md': 'cookbook',
     'v1/language-guide': 'language-guide',
     'v1/appendix/golden_examples': 'examples'
+  };
+
+  /** @type {Record<string, string>} */
+  const routeOverrides = {
+    'v1/VISION.md': '/docs#vision',
+    'v1/CONTRIBUTING.md': '/docs#contributing',
+    'v1/LICENSE.txt': '/docs#license',
+    'v1/compiler/ARCHITECTURE.md': '/docs#compiler-architecture',
+    'v1/compiler/IR_LOWERING.md': '/docs#ir-design',
+    'v1/backend/NXD-NIM_MAPPING.md': '/docs#backend-mapping',
+    'v1/backend/NXD-ELIXER_MAPPING.md': '/docs#backend-mapping',
+    'v1/backend/NXD-D_MAPPING.md': '/docs#backend-mapping',
+    'v1/appendix/COOKBOOK_APNDX.md': '/docs#cookbook',
+    'v1/language-guide': '/docs#language-guide',
+    'v1/appendix/golden_examples': '/docs#examples'
   };
 
   /**
@@ -119,11 +134,18 @@
     /** @type {{ children: Record<string, any>, files: any[] }} */
     const root = { children: {}, files: [] };
 
-    Object.entries(docModules).forEach(([modulePath, content]) => {
+    Object.entries(docModules).forEach(([modulePath]) => {
       const cleanPath = modulePath.replace(/^\.\//, '').replace(/\\/g, '/');
       const segments = cleanPath.split('/');
       const fileName = segments.pop();
       const parts = segments;
+      const normalizedPath = cleanPath.replace(/\.(md|txt)$/i, '');
+      const relativeRoute = normalizedPath
+        .split('/')
+        .filter(Boolean)
+        .map((segment) => slugify(segment))
+        .join('/');
+      const route = routeOverrides[cleanPath] || (relativeRoute ? `/docs/${relativeRoute}` : '/docs');
 
       /** @type {{ children: Record<string, any>, files: any[] }} */
       let current = root;
@@ -145,7 +167,8 @@
         fileName,
         title: titleFromFile(cleanPath, fileName || ''),
         description: describeDocument(cleanPath, fileName || ''),
-        anchor: anchorOverrides[cleanPath] || anchorOverrides[cleanPath.replace(/\/(?:[^/]+)$/,'')] || slugify(titleFromFile(cleanPath, fileName || ''))
+        anchor: anchorOverrides[cleanPath] || anchorOverrides[cleanPath.replace(/\/(?:[^/]+)$/,'')] || slugify(titleFromFile(cleanPath, fileName || '')),
+        url: route
       });
     });
 
@@ -190,8 +213,10 @@
           <ul class="doc-list">
             {#each section.files as doc}
               <li id={doc.anchor} class="doc-card">
-                <h3>{doc.title}</h3>
-                <p>{doc.description}</p>
+                <a class="doc-link" href={doc.url}>
+                  <h3>{doc.title}</h3>
+                  <p>{doc.description}</p>
+                </a>
               </li>
             {/each}
           </ul>
@@ -210,8 +235,10 @@
                   <ul class="doc-list nested">
                     {#each child.files as doc}
                       <li id={doc.anchor} class="doc-card">
-                        <h3>{doc.title}</h3>
-                        <p>{doc.description}</p>
+                        <a class="doc-link" href={doc.url}>
+                          <h3>{doc.title}</h3>
+                          <p>{doc.description}</p>
+                        </a>
                       </li>
                     {/each}
                   </ul>
@@ -226,8 +253,10 @@
                           <ul class="doc-list nested">
                             {#each grandChild.files as doc}
                               <li id={doc.anchor} class="doc-card">
-                                <h3>{doc.title}</h3>
-                                <p>{doc.description}</p>
+                                <a class="doc-link" href={doc.url}>
+                                  <h3>{doc.title}</h3>
+                                  <p>{doc.description}</p>
+                                </a>
                               </li>
                             {/each}
                           </ul>
@@ -310,8 +339,15 @@
   .doc-card {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.8rem;
-    padding: 0.9rem 1rem;
+    padding: 0;
     background: rgba(7, 17, 31, 0.55);
+  }
+
+  .doc-link {
+    display: block;
+    padding: 0.9rem 1rem;
+    color: inherit;
+    text-decoration: none;
   }
 
   .nested {
