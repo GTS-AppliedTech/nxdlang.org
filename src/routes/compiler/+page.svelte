@@ -111,13 +111,13 @@
     padding: 0.75rem 1rem;
     border-radius: 999px;
     text-decoration: none;
-    background: #7ad7ff;
+    background: #62a6f3;
     color: #07111f;
     font-weight: 600;
   }
 
   .actions a:hover {
-    background: #9ce8ff;
+    background: #62a6f3;
   }
 
   .footer-note {

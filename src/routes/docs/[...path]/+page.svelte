@@ -91,8 +91,10 @@
 
 <style>
   .doc-view-page {
+    min-height: 100vh;
     padding: 2rem 1.25rem 3rem;
-    color: #1f2937;
+    background: #13293b;
+    color: #a3e635;
   }
 
   .doc-header {
@@ -104,24 +106,26 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.8rem;
-    color: #7ad7ff;
+    color: #62a6f3;
   }
 
   h1 {
     margin: 0 0 0.5rem;
     font-size: clamp(1.8rem, 3vw, 2.4rem);
+    color: #6d28d9;
   }
 
   a {
-    color: #7ad7ff;
+    color: #6d28d9;
     text-decoration: none;
   }
 
   .doc-content {
     padding: 1rem 1.1rem;
     border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111827;
+    border: 1px solid #334155;
+    color: #a3e635;
   }
 
   pre {
@@ -130,12 +134,14 @@
     margin: 0;
     line-height: 1.7;
     font-family: ui-monospace, SFMono-Regular, monospace;
+    color: inherit;
   }
 
   .empty-state {
     padding: 1.1rem;
     border-radius: 1rem;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
+    background: #111827;
+    border: 1px solid #334155;
+    color: #a3e635;
   }
 </style>

@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
   import DocSidebar from '$lib/components/DocSidebar.svelte';
+  let { children } = $props();
 </script>
 
 <div class="docs-layout">
@@ -7,7 +8,7 @@
     <DocSidebar />
   </aside>
   <main class="docs-main">
-    <slot />
+    {@render children()}
   </main>
 </div>
 
@@ -17,6 +18,8 @@
     grid-template-columns: minmax(220px, 280px) 1fr;
     gap: 1.25rem;
     min-height: 100%;
+    background: #13293b;
+    padding: 1.25rem;
   }
 
   .docs-sidebar {

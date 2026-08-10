@@ -38,6 +38,17 @@
         Your feedback will help improve accuracy, consistency, and long-term viability of the project.
       </p>
     </div>
+
+    <div class="social-cards">
+      <div class="social-card github-card">
+        <p class="social-type">GitHub</p>
+        <a href="https://github.com/GTS-AppliedTech/nxd_language" target="_blank" rel="noopener">github.com/GTS-AppliedTech/nxd_language</a>
+      </div>
+      <div class="social-card x-card">
+        <p class="social-type">X</p>
+        <a href="https://x.com/NXDLanguage" target="_blank" rel="noopener">@NXDLanguage</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -69,7 +80,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.8rem;
-    color: #7ad7ff;
+    color: #62a6f3;
   }
 
   h1 {
@@ -98,6 +109,38 @@
     margin-bottom: 1.6rem;
   }
 
+  .social-cards {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.4rem;
+  }
+
+  .social-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(122, 215, 255, 0.18);
+  }
+
+  .social-type {
+    margin: 0 0 0.35rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: #62a6f3;
+  }
+
+  .social-card a {
+    display: inline-block;
+    color: #dce7f5;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  .social-card a:hover {
+    color: #62a6f3;
+  }
+
   .actions a {
     display: inline-flex;
     align-items: center;
@@ -105,13 +148,13 @@
     padding: 0.75rem 1rem;
     border-radius: 999px;
     text-decoration: none;
-    background: #7ad7ff;
+    background: #62a6f3;
     color: #07111f;
     font-weight: 600;
   }
 
   .actions a:hover {
-    background: #9ce8ff;
+    background: #62a6f3;
   }
 
   .status-block {
@@ -132,7 +175,7 @@
 
   .status-callout {
     margin: 0 0 0.75rem;
-    color: #7ad7ff;
+    color: #62a6f3;
     font-weight: 700;
   }
 

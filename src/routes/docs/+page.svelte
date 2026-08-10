@@ -51,17 +51,10 @@
 
   /** @type {Record<string, string>} */
   const routeOverrides = {
-    'v1/VISION.md': '/docs',
-    'v1/CONTRIBUTING.md': '/docs',
-    'v1/LICENSE.txt': '/docs',
-    'v1/compiler/ARCHITECTURE.md': '/docs',
-    'v1/compiler/IR_LOWERING.md': '/docs',
-    'v1/backend/NXD-NIM_MAPPING.md': '/docs',
-    'v1/backend/NXD-ELIXER_MAPPING.md': '/docs',
-    'v1/backend/NXD-D_MAPPING.md': '/docs',
-    'v1/appendix/COOKBOOK_APNDX.md': '/docs',
-    'v1/language-guide': '/docs',
-    'v1/appendix/golden_examples': '/docs'
+    'v1/VISION.md': '/docs/v1/vision',
+    'v1/CONTRIBUTING.md': '/docs/v1/contributing',
+    'v1/LICENSE.txt': '/docs/v1/license',
+    'v1/appendix/COOKBOOK_APNDX.md': '/docs/v1/appendix/cookbook-apndx'
   };
 
   /**
@@ -272,13 +265,24 @@
       </section>
     {/each}
   </div>
+
+  <div class="social-cards docs-social-cards">
+    <div class="social-card github-card">
+      <p class="social-type">GitHub</p>
+      <a href="https://github.com/GTS-AppliedTech/nxd_language" target="_blank" rel="noopener">github.com/GTS-AppliedTech/nxd_language</a>
+    </div>
+    <div class="social-card x-card">
+      <p class="social-type">X</p>
+      <a href="https://x.com/NXDLanguage" target="_blank" rel="noopener">@NXDLanguage</a>
+    </div>
+  </div>
 </section>
 
 <style>
   .docs-index-page {
     padding: 2rem 1.25rem 3rem;
     min-height: 100vh;
-    background: #0f172a;
+    background: #13293b;
     color: #f5f7fb;
   }
 
@@ -292,7 +296,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.8rem;
-    color: #7ad7ff;
+    color: #62a6f3;
   }
 
   h1 {
@@ -346,13 +350,13 @@
   .doc-link {
     display: block;
     padding: 0.9rem 1rem;
-    color: #7ad7ff;
+    color: #62a6f3;
     text-decoration: none;
   }
 
   .doc-link:hover,
   .docs-index-page a:hover {
-    color: #38bdf8;
+    color: #62a6f3;
   }
 
   .nested {
@@ -363,5 +367,42 @@
     margin-top: 0.75rem;
     padding-left: 0.75rem;
     border-left: 1px solid #334155;
+  }
+
+  .social-cards {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .docs-social-cards {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .social-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(122, 215, 255, 0.18);
+  }
+
+  .social-type {
+    margin: 0 0 0.35rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: #62a6f3;
+  }
+
+  .social-card a {
+    display: inline-block;
+    color: #dce7f5;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  .social-card a:hover {
+    color: #62a6f3;
   }
 </style>
