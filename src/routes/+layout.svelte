@@ -6,6 +6,9 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<link rel="icon" type="image/svg+xml" href={favicon} />
+	<link rel="alternate icon" href="/favicon.ico" />
+</svelte:head>
 <Navbar />
 {@render children()}
