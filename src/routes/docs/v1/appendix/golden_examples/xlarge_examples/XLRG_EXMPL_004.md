@@ -1,4 +1,4 @@
- ## Distributed Security Event Correlator  (events, rules, correlation windows, channels, tasks, multi‑module, supervision)
+# XE004: Distributed Security Event Correlator  (events, rules, correlation windows, channels, tasks, multi‑module, supervision)
 
 ### JSON‑LD Metadata
 ```jsonld
@@ -22,7 +22,7 @@
 ```
 
 
-# Canonical NXD (XL‑Layer)
+## Canonical NXD (XL‑Layer)
 
 ```nxd
 MODULE sec.types
@@ -50,7 +50,7 @@ TYPE CHANNEL<ALERT> { }
 
 MODULE sec.window
 
-# correlation window stores recent events
+ correlation window stores recent events
 TYPE WINDOW { EVENTS: LIST<EVENT> }
 
 FUNC NEW_WINDOW(): WINDOW:
@@ -79,7 +79,7 @@ MODULE sec.rules
 IMPORT sec.types
 IMPORT sec.window
 
-# rule: brute force detection
+ rule: brute force detection
 FUNC RULE_BRUTE(W: WINDOW): OPTION:
     LET FAILS SET FIND(W, "auth_fail")
     IF LEN(FAILS) GT 5:
@@ -91,7 +91,7 @@ FUNC RULE_BRUTE(W: WINDOW): OPTION:
         })
     RETURN NONE
 
-# rule: privilege escalation detection
+ rule: privilege escalation detection
 FUNC RULE_PRIVESC(W: WINDOW): OPTION:
     LET ROOT SET FIND(W, "root_access")
     LET FAILS SET FIND(W, "auth_fail")
@@ -104,7 +104,7 @@ FUNC RULE_PRIVESC(W: WINDOW): OPTION:
         })
     RETURN NONE
 
-# rule: suspicious system changes
+ rule: suspicious system changes
 FUNC RULE_SYSCHANGE(W: WINDOW): OPTION:
     LET CH SET FIND(W, "sys_change")
     IF LEN(CH) GT 2:
@@ -196,7 +196,7 @@ FUNC MAIN():
     SPAWN SUPERVISE(IN, OUT)
     SPAWN PRINT_ALERTS(OUT)
 
-    # simulate events
+     simulate events
     EMIT(IN, "auth", "auth_fail", "bad password")
     EMIT(IN, "auth", "auth_fail", "bad password")
     EMIT(IN, "auth", "auth_fail", "bad password")
@@ -217,7 +217,7 @@ FUNC MAIN():
 
 
 
-# What this XL example demonstrates
+## What this XL example demonstrates
 
 ### Multi‑module security architecture  
 - `sec.types`  

@@ -1,4 +1,5 @@
-## Distributed Threat Intelligence Pipeline  (ingest, normalize, enrich, correlate, channels, multi‑module, supervision)
+# XE009: Distributed Threat Intelligence Pipeline
+  (ingest, normalize, enrich, correlate, channels, multi‑module, supervision)
 
 ### JSON‑LD Metadata
 ```jsonld

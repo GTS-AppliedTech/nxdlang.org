@@ -1,4 +1,4 @@
-# CHANNELS + TASKS: FAN-OUT / FAN-IN
+# ME008: CHANNELS + TASKS: FAN-OUT / FAN-IN
 
 ### JSON-LD Metadata
 ```jsonld

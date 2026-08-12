@@ -1,4 +1,4 @@
-# ⭐ **XXL System 8 — Distributed Task Queue & Workflow Engine**  (workflows • DAGs • retries • backoff • state machine)
+# **RA008: Distributed Task Queue & Workflow Engine**  (workflows • DAGs • retries • backoff • state machine)
 
 
 # **Step 1 — Architecture Map (XXL Workflow Engine)**

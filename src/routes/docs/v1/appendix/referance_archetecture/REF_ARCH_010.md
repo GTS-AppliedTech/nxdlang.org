@@ -1,4 +1,4 @@
-# ⭐ **XXL System 10 — Distributed Filesystem (Object Store + Block Store)**  (objects • blocks • replication • metadata • directory tree)
+# **RA010: Distributed Filesystem (Object Store + Block Store)**  (objects • blocks • replication • metadata • directory tree)
 
 
 # **Step 1 — Architecture Map (XXL Distributed Filesystem)**

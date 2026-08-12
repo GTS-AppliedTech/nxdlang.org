@@ -1,7 +1,7 @@
-# ⭐ **XXL System 5 — Distributed Logging & Telemetry Platform**  (log ingestion • log routing • log storage • dashboards • alerts)
+# **RA005: Distributed Logging & Telemetry Platform**  (log ingestion • log routing • log storage • dashboards • alerts)
 
 
-# **Step 1 — Architecture Map (XXL Logging & Telemetry Platform)**
+## **Step 1 — Architecture Map (XXL Logging & Telemetry Platform)**
 
 ### **1. Log Model**
 - structured log entries  

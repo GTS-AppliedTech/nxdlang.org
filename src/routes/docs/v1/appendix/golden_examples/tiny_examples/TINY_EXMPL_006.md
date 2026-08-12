@@ -1,6 +1,6 @@
 
 
-# Golden Example #6 — Error Handling (Tiny Layer)
+# TE006 — Error Handling (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

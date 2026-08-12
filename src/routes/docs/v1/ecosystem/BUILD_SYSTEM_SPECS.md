@@ -1,7 +1,7 @@
 BUILD_SYSTEM_SPECS.md
 
 
-## NXD build system specification
+# NXD build system specification
 
 This defines how NXD projects are built, tested, and released across Nim, Elixir, and D, while presenting a single, coherent interface to the user.
 
@@ -134,19 +134,19 @@ If a backend cannot support a feature, the build system must:
 
 7. Example workflow
 
-# initialize project
+### initialize project
 nxd init my_app
 
-# build for all backends
+### build for all backends
 nxd build
 
-# build only for Nim
+### build only for Nim
 nxd build --backend nim
 
-# run tests
+### run tests
 nxd test
 
-# create release
+### create release
 nxd release
 
 

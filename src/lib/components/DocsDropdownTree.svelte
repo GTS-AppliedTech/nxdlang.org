@@ -36,7 +36,15 @@
 
 <div class="dropdown-tree level-{level}">
 	{#each nodes as node}
-		<details class="tree-section" open={shouldOpen(level)}>
+		<details 
+          class="tree-section" 
+          open={shouldOpen(level)}
+          id={
+            node.name === 'golden_examples'
+            ? 'examples'
+            : undefined
+          }
+        >
 			<summary>
 				<span class="section-title">{node.title}</span>
 				<span class="section-count">

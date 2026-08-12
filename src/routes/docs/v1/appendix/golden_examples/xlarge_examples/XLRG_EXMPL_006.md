@@ -1,4 +1,4 @@
- ## Distributed Notification Hub  
+# XE006: Distributed Notification Hub  
 (topics, subscriptions, fan‑out, channels, multi‑module, supervision)
 
 ### JSON‑LD Metadata
@@ -25,7 +25,7 @@
 
 
 
-# Canonical NXD (XL‑Layer)
+## Canonical NXD (XL‑Layer)
 
 ```nxd
 MODULE notify.types
@@ -152,7 +152,7 @@ FUNC MAIN():
 
 
 
-# What this XL example demonstrates
+## What this XL example demonstrates
 
 ### Multi‑module messaging architecture  
 - `notify.types`  

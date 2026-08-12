@@ -1,4 +1,5 @@
-## Distributed Access Control Engine  (policy evaluation, roles, capabilities, channels, multi‑module, supervision)
+# XE008: Distributed Access Control Engine 
+ (policy evaluation, roles, capabilities, channels, multi‑module, supervision)
 
 ### JSON‑LD Metadata
 ```jsonld

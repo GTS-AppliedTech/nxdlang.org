@@ -1,4 +1,4 @@
-# ⭐ **XXL System 14 — Distributed Monitoring & Observability Stack**  (metrics • traces • spans • dashboards • alerts)
+# **RA014: Distributed Monitoring & Observability Stack**  (metrics • traces • spans • dashboards • alerts)
 
 
 # **Step 1 — Architecture Map (XXL Observability Stack)**

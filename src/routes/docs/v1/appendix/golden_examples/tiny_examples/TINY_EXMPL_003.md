@@ -1,6 +1,6 @@
 
 
-# Golden Example #3 — Channels (Tiny Layer)
+# TE003 — Channels (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

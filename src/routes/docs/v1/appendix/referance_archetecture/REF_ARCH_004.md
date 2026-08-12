@@ -1,5 +1,4 @@
-# **XXL System 4 — Compiler Stack**  
-(NXD front‑end • IR • optimizer • backend mapper)
+# **RA004: Compiler Stack**  (NXD front‑end • IR • optimizer • backend mapper)
 
 This system is a full compiler pipeline for NXD:
 

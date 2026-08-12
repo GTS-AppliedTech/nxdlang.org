@@ -1,5 +1,4 @@
-## Security Orchestration & Automated Response (SOAR)  
-(playbooks, triggers, actions, automation, channels, multi‑module, supervision)
+# XE010: Security Orchestration & Automated Response (SOAR)  (playbooks, triggers, actions, automation, channels, multi‑module, supervision)
 
 ### JSON‑LD Metadata
 ```jsonld

@@ -1,4 +1,4 @@
-# **XXL System 18 — Distributed API Gateway & Edge Router**  
+# **RA018: Distributed API Gateway & Edge Router**  
 (rate limiting • routing • auth • caching • WAF)
 
 

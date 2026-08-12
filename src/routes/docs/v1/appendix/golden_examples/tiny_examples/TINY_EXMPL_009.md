@@ -1,8 +1,7 @@
  **Golden Example #9 — Compiler Plugin**, 
 
 ---
-
-#  Golden Example #9 — Compiler Plugin (Tiny Layer)
+# TE009 — Compiler Plugin (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

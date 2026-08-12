@@ -1,5 +1,7 @@
 NXD-ELIXIR_MAPPING.md
 
+# ELIXIR MAPPING
+
 1. Modules
 
 NXD:
@@ -59,7 +61,7 @@ TYPE RESULT UNION { OK(string), ERR(int) }
 
 Elixir:
 
-# {:ok, value} | {:error, reason}
+{:ok, value} | {:error, reason}
 
 
 4. Functions

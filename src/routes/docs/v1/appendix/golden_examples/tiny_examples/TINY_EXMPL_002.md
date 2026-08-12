@@ -1,6 +1,6 @@
 
 
-# Golden Example #2 — Concurrency (Tiny Layer)
+# TE002 — Concurrency (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

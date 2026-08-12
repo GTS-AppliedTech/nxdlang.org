@@ -1,4 +1,4 @@
-# ⭐ **XXL System 6 — Distributed Configuration & Secrets Platform**  (config registry • dynamic reload • secret vault • versioning)
+# **RA006: Distributed Configuration & Secrets Platform**  (config registry • dynamic reload • secret vault • versioning)
 
 
 # **Step 1 — Architecture Map (XXL Configuration & Secrets Platform)**

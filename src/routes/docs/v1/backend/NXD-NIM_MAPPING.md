@@ -1,5 +1,6 @@
 NXD-NIM_MAPPING.md
 
+# NIM MAPPING
 
 This is the first backend in the multi‑backend compiler, and Nim is the easiest target because:
 
@@ -28,7 +29,7 @@ MODULE MATH
 
 becomes:
 
-# math.nim
+math.nim
 
 
 Rules:

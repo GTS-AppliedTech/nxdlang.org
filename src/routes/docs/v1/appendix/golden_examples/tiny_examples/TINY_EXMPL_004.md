@@ -1,5 +1,5 @@
 
-#  Golden Example #4 — Ownership (Tiny Layer)
+#  TE004 — Ownership (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

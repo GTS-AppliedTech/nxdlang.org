@@ -1,4 +1,4 @@
-## Distributed Metrics Aggregator  (collectors, reducers, rollups, channels, tasks, multi‑module, supervision)
+# XE005: Distributed Metrics Aggregator  (collectors, reducers, rollups, channels, tasks, multi‑module, supervision)
 
 ### JSON‑LD Metadata
 ```jsonld
@@ -24,7 +24,7 @@
 
 
 
-# Canonical NXD (XL‑Layer)
+## Canonical NXD (XL‑Layer)
 
 ```nxd
 MODULE metrics.types

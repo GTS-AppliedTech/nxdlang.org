@@ -1,4 +1,4 @@
-# **XXL System 17 — Distributed Secrets Rotation & Key Management Platform**  (KMS • rotation • wrapping • unwrapping • audit)
+# **RA017: Distributed Secrets Rotation & Key Management Platform**  (KMS • rotation • wrapping • unwrapping • audit)
 
 # **Step 1 — Architecture Map (XXL KMS & Secrets Rotation Platform)**
 

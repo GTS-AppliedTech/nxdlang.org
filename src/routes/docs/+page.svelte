@@ -161,13 +161,16 @@
       current.files.push({
         path: cleanPath,
         fileName,
-        title: titleFromFile(cleanPath, fileName || ''),
+        title: titleFromFile(modulePath, fileName || ''),
         description: describeDocument(cleanPath, fileName || ''),
-        anchor: anchorOverrides[cleanPath] || anchorOverrides[cleanPath.replace(/\/(?:[^/]+)$/,'')] || slugify(titleFromFile(cleanPath, fileName || '')),
+        anchor:
+          anchorOverrides[cleanPath] ||
+          anchorOverrides[cleanPath.replace(/\/(?:[^/]+)$/, '')] ||
+          slugify(titleFromFile(modulePath, fileName || '')),
         url: route
-      });
+      });   
     });
-
+     
     return root;
   }
 

@@ -1,7 +1,7 @@
 GENERIC_CONSTRAINTS.md
 
 
-NXD Generic Constraints Specification
+# Generic Constraints Specification
 
 (Traits, constraint resolution, multiple constraints, backend mapping, semantics)
 
@@ -274,7 +274,7 @@ TRAIT B IMPLEMENTS A { FUNC G(X): int }
 TYPE T IMPLEMENTS B:
     ...
 
-# T satisfies both A and B
+T satisfies both A and B
 
 
 13. Summary Table

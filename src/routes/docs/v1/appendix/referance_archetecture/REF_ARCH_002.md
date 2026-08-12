@@ -1,4 +1,4 @@
-# **XXL System 2 — Orchestration Platform**  (distributed job runner • workers • scheduler • config • metrics • logging)
+# **RA002: Orchestration Platform**  (distributed job runner • workers • scheduler • config • metrics • logging)
 
 System 2 is a **full distributed orchestration platform**, the kind you'd use to run:
 

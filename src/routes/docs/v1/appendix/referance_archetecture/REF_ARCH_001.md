@@ -1,4 +1,7 @@
-# XXL‑Layer Example 1 (Security Platform) — Step 1  
+# **RA001: Security Platform** 
+
+Step 1
+
 ## **Full Architecture Map**
 
 This is the top-level structure of the entire XXL system:

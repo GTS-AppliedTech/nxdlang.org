@@ -1,7 +1,7 @@
 OPERATE_SEMANTICS.md
 
 
-NXD Operational Semantics
+# NXD Operational Semantics
 
 (Evaluation, Matching, Borrowing, Imports, Initialization, Runtime Ordering)
 
@@ -156,18 +156,19 @@ As long as:
 
 Illegal
 
-# A.nxd
+```nxd
 MODULE A
 IMPORT B
 INIT:
     CALL B.START()
+```
 
-# B.nxd
+```nxd
 MODULE B
 IMPORT A
 INIT:
     CALL A.START()
-
+```
 
 This is a compile‑time error.
 

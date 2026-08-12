@@ -1,6 +1,6 @@
 
 
-#  Golden Example #7 — Generics (Tiny Layer)
+#  TE007 — Generics (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

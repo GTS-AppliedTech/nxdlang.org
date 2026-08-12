@@ -1,4 +1,4 @@
-# **XXL System 7 — Distributed Event Streaming Platform**  
+# **RA007: Distributed Event Streaming Platform**  
 (pub/sub • partitions • consumer groups • retention • replay)
 
 

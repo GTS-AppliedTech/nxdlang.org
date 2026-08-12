@@ -1,4 +1,4 @@
-## Distributed Logging Mesh (Routers, Filters, Sinks, Channels, Supervision, Multi‑Module)
+# XE003: Distributed Logging Mesh (Routers, Filters, Sinks, Channels, Supervision, Multi‑Module)
 
 ### JSON‑LD Metadata
 ```jsonld

@@ -1,7 +1,7 @@
-# **XXL System 12 — Distributed Service Mesh**  (sidecars • mTLS • routing • retries • circuit breakers)
+# **RA012 Distributed Service Mesh**  (sidecars • mTLS • routing • retries • circuit breakers)
 
 
-# **Step 1 — Architecture Map (XXL Service Mesh)**
+## **Step 1 — Architecture Map (XXL Service Mesh)**
 
 ### **1. Sidecar Model**
 - per‑service proxy  

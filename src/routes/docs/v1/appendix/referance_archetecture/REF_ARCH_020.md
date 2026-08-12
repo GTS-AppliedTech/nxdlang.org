@@ -1,4 +1,4 @@
-# **XXL System 20 — Distributed Configuration Snapshot & Time‑Travel Platform**  (version snapshots • diffs • rollback • time‑travel queries)
+# **RA020: Distributed Configuration Snapshot & Time‑Travel Platform**  (version snapshots • diffs • rollback • time‑travel queries)
 
 # **Step 1 — Architecture Map (XXL Config Snapshot Platform)**
 

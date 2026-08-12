@@ -17,7 +17,6 @@
       <a href="/docs/v1/vision">Read the Vision</a>
       <a href="/docs">Browse Documentation</a>
       <a href="/docs#examples">Explore Examples</a>
-      <a href="/docs#reference-architecture">Reference Architectures</a>
       <a href="/docs/v1/contributing">How to Contribute</a>
       <a href="/docs/v1/license">View the MIT License</a>
     </div>

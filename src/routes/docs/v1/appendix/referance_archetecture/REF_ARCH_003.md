@@ -1,5 +1,4 @@
-# **XXL System 3 — Network Security Stack**  
-(firewall • routing • VPN • sessions • monitoring)
+# **RA003: Network Security Stack**  (firewall • routing • VPN • sessions • monitoring)
 
 This system is a full, distributed network‑security platform — the kind you’d deploy in a real enterprise edge environment. It’s the natural successor to System 1 (Security Platform) and System 2 (Orchestration Platform).
 

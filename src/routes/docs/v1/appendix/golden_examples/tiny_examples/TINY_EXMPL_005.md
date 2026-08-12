@@ -1,6 +1,6 @@
 
 
-#  Golden Example #5 — Security (Tiny Layer)
+#  TE005 — Security (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

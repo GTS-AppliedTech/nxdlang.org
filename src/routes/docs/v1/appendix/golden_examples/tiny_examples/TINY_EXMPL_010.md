@@ -1,4 +1,4 @@
-#  Golden Example #10 — Multi‑Module (Tiny Layer)
+#  TE0010 — Multi‑Module (Tiny Layer)
 
 ### JSON‑LD Metadata
 ```jsonld

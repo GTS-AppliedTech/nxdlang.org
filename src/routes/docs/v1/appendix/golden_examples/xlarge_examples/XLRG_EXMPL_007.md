@@ -1,5 +1,5 @@
-# XL‑Layer Example 7  
-## Distributed Storage Replicator  (replication streams, consistency, channels, multi‑module, supervision, conflict resolution)
+# XE007: Distributed Storage Replicator
+  (replication streams, consistency, channels, multi‑module, supervision, conflict resolution)
 
 ### JSON‑LD Metadata
 ```jsonld

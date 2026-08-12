@@ -1,7 +1,7 @@
 
 
 
-## Golden Example #1 — CRUD (Create/Read/Update/Delete)
+# TE001 — CRUD (Create/Read/Update/Delete)
 
 ### JSON‑LD Metadata
 ```jsonld

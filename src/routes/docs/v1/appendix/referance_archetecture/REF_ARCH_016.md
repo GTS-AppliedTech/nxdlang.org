@@ -1,4 +1,4 @@
-# **XXL System 16 — Distributed Notification & Messaging Platform**  (email • SMS • push • webhooks • routing)
+# **RA016: Distributed Notification & Messaging Platform**  (email • SMS • push • webhooks • routing)
 
 
 # **Step 1 — Architecture Map (XXL Messaging Platform)**
