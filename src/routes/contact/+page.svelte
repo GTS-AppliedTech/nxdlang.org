@@ -7,7 +7,7 @@
   <div class="card">
     <p class="eyebrow">Contact Us</p>
     <h1>Contact NXD</h1>
-    <p class="lead">Reach out to the NXD project team through the social links below or browse the documentation for more information.</p>
+    <p class="lead">Reach out to the NXD project team through email: hello@nxdlang.org or via the social links below. For additional information, browse the documentation for more information.</p>
 
     <div class="links">
       <a href="/">Back to home</a>
@@ -15,14 +15,33 @@
     </div>
 
     <div class="social-cards">
+      <div class="social-card email-card">
+        <p class="social-type">Email</p>
+        <a href="mailto:hello@nxdlang.org">
+          hello@nxdlang.org
+        </a>
+      </div>
       <div class="social-card github-card">
         <p class="social-type">GitHub</p>
-        <a href="https://github.com/GTS-AppliedTech/nxd_language" target="_blank" rel="noopener">github.com/GTS-AppliedTech/nxd_language</a>
+        <a
+          href="https://github.com/GTS-AppliedTech/nxd_language"
+          target="_blank"
+          rel="noopener"
+        >
+          github.com/GTS-AppliedTech/nxd_language
+        </a>
       </div>
       <div class="social-card x-card">
         <p class="social-type">X</p>
-        <a href="https://x.com/NXDLanguage" target="_blank" rel="noopener">@NXDLanguage</a>
+        <a 
+          href="https://x.com/NXDLanguage"
+          target="_blank"
+          rel="noopener"
+          >
+          @NXDLanguage
+        </a>
       </div>
+      
     </div>
   </div>
 </section>

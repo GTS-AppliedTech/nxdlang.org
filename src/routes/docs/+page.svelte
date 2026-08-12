@@ -1,4 +1,7 @@
 <script>
+  import DocsDropdownTree from '$lib/components/DocsDropdownTree.svelte';
+
+ 
   /** @type {Record<string, string>} */
   const docModules = import.meta.glob('./**/*.{md,txt}', { eager: true, query: '?raw', import: 'default'});
 
@@ -168,9 +171,23 @@
     return root;
   }
 
-  const docTree = buildTree();
-  /** @type {any[]} */
-  const topLevelSections = Object.values(docTree.children).sort((a, b) => a.title.localeCompare(b.title));
+ const docTree = buildTree();
+
+ const versionRoot = docTree.children.v1;
+
+ const topLevelSections = versionRoot
+   ? [
+       {
+         name: 'core-documents',
+         title: 'Core Documents',
+         description:
+           'Project vision, licensing, contribution guidance and top-level documents.',
+         children: {},
+         files: versionRoot.files
+       },
+       ...Object.values(versionRoot.children)
+     ]
+   : Object.values(docTree.children); 
 </script>
 
 <svelte:head>
@@ -193,77 +210,7 @@
   </div>
 
   <div class="section-list">
-    {#each topLevelSections as section}
-      <section class="section-card" id={section.name === 'v1' ? 'version-1' : slugify(section.title)}>
-        <div class="section-header">
-          <h2>{section.title}</h2>
-          {#if section.description}
-            <p>{section.description}</p>
-          {/if}
-        </div>
-
-        {#if section.files.length}
-          <ul class="doc-list">
-            {#each section.files as doc}
-              <li id={doc.anchor} class="doc-card">
-                <a class="doc-link" href={doc.url}>
-                  <h3>{doc.title}</h3>
-                  <p>{doc.description}</p>
-                </a>
-              </li>
-            {/each}
-          </ul>
-        {/if}
-
-        {#if Object.keys(section.children).length}
-          <div class="subsections">
-            {#each Object.values(section.children).sort((a, b) => a.title.localeCompare(b.title)) as child}
-              <div class="subsection" id={child.name === 'golden_examples' ? 'examples' : slugify(child.title)}>
-                <h3>{child.title}</h3>
-                {#if child.description}
-                  <p>{child.description}</p>
-                {/if}
-
-                {#if child.files.length}
-                  <ul class="doc-list nested">
-                    {#each child.files as doc}
-                      <li id={doc.anchor} class="doc-card">
-                        <a class="doc-link" href={doc.url}>
-                          <h3>{doc.title}</h3>
-                          <p>{doc.description}</p>
-                        </a>
-                      </li>
-                    {/each}
-                  </ul>
-                {/if}
-
-                {#if Object.keys(child.children).length}
-                  <div class="subsection-children">
-                    {#each Object.values(child.children).sort((a, b) => a.title.localeCompare(b.title)) as grandChild}
-                      <div class="subsection" id={grandChild.name === 'golden_examples' ? 'examples' : slugify(grandChild.title)}>
-                        <h4>{grandChild.title}</h4>
-                        {#if grandChild.files.length}
-                          <ul class="doc-list nested">
-                            {#each grandChild.files as doc}
-                              <li id={doc.anchor} class="doc-card">
-                                <a class="doc-link" href={doc.url}>
-                                  <h3>{doc.title}</h3>
-                                  <p>{doc.description}</p>
-                                </a>
-                              </li>
-                            {/each}
-                          </ul>
-                        {/if}
-                      </div>
-                    {/each}
-                  </div>
-                {/if}
-              </div>
-            {/each}
-          </div>
-        {/if}
-      </section>
-    {/each}
+  <DocsDropdownTree nodes={topLevelSections} />
   </div>
 
   <div class="social-cards docs-social-cards">
