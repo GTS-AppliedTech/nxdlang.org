@@ -233,7 +233,7 @@
     padding: 2rem 1.25rem 3rem;
     min-height: 100vh;
     background: #13293b;
-    color: #f5f7fb;
+    color: #6d28d9;
   }
 
   .intro {
@@ -347,7 +347,7 @@
 
   .social-card a {
     display: inline-block;
-    color: #dce7f5;
+    color: #6d28d9;
     text-decoration: none;
     word-break: break-word;
   }

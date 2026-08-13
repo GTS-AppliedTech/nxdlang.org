@@ -156,7 +156,7 @@
 	.doc-link {
 		display: block;
 		padding: 0.85rem 1rem;
-		color: #62a6f3;
+		color: #6d28d9;
 		text-decoration: none;
 	}
 
@@ -173,7 +173,7 @@
 	.doc-link p {
 		margin: 0;
 		line-height: 1.55;
-		color: #f5f7fb;
+		color: #6d28d9;
 	}
 
 	.level-3,
