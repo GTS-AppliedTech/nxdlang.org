@@ -1,5 +1,24 @@
 # MOD-PKG_SYS_SPECS.md
 
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
 
 # NXD Module & Package System Specification
 

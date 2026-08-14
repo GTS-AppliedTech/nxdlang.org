@@ -6,6 +6,7 @@
 		{ href: '/docs', label: 'Documentation' },
 		{ href: '/compiler', label: 'Compiler' },
 		{ href: '/playground', label: 'Playground' },
+		{href: '/faqs', label: 'FAQs'},
 		{ href: '/contact', label: 'Contact Us' }
 	];
 
@@ -20,7 +21,9 @@
 
 <nav class="site-nav" aria-label="Primary navigation">
 	<div class="nav-body">
-		<a class="brand" href="/">NXD</a>
+		<a href="/">
+			<img src="/favicon.ico" alt="NXD Logo" class="brand-logo"><span class="brand">NXD</span>
+		</a>
 		<button
 			class="menu-toggle"
 			type="button"
@@ -88,14 +91,25 @@
 	}
 
 	.brand {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+
 		font-weight: 700;
 		text-decoration: none;
-		color: #7ad7ff;
+		color: #1c97cc;
 		font-size: 1.05rem;
 	}
 
+.brand-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}	
+
 	.menu-toggle {
 		display: inline-flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		width: 2.75rem;
@@ -136,13 +150,13 @@
 	}
 
 	.nav-items.desktop a,
-	.mobile-menu a {
+	.mobile-menu  a{
 		display: inline-flex;
 		align-items: center;
 		padding: 0.8rem 1rem;
 		border-radius: 0.85rem;
 		text-decoration: none;
-		color: #dce7f5;
+		color: #1c97cc;
 		font-weight: 600;
 	}
 
@@ -158,6 +172,7 @@
 
 	.mobile-menu {
 		position: absolute;
+		z-index:  100;
 		top: 100%;
 		left: 0;
 		right: 0;
@@ -250,16 +265,11 @@
 
 	@media (min-width: 860px) {
 		.menu-toggle {
-			display: none;
-		}
-
-		.nav-items.desktop {
 			display: flex;
 		}
 
-		.mobile-menu,
-		.menu-backdrop {
-			display: none !important;
+		.nav-items.desktop {
+			display: none;
 		}
 	}
 </style>

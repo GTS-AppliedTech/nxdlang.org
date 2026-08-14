@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA021: Distributed Search & Indexing Engine**  (full‑text search • inverted index • ranking • shards)
 
 

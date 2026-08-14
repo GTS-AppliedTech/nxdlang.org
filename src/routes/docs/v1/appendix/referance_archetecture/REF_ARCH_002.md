@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA002: Orchestration Platform**  (distributed job runner • workers • scheduler • config • metrics • logging)
 
 System 2 is a **full distributed orchestration platform**, the kind you'd use to run:

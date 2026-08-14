@@ -1,0 +1,49 @@
+.btn-primary {
+    background: #16aaee;
+    color: #0F172A;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background: #1b71a0;
+}
+
+## document index cards
+.doc-card {
+    background: #1E293B;
+}
+.doc-card-title {
+    color: #6D28D9;
+}
+.doc-card-summary {
+    color: #22C55E;
+}
+
+.social-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: 0.2s ease;
+}
+
+.social-card:hover {
+    transform: translateY(-2px);
+}
+
+## social media cards
+.social-card-title {
+    color: #f5f7fb;
+    font-weight: 600;
+}
+
+.social-card-link {
+    color: #6D28D9;
+}
+
+.social-card-description {
+    color: #94A3B8;
+}
+
+}

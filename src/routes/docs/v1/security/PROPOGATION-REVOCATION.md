@@ -1,4 +1,24 @@
-PROPOGATION-REVOCATION.md
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
+# PROPOGATION-REVOCATION.md
 
 NXD capability propagation and revocation semantics
 

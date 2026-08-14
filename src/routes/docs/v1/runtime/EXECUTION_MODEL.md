@@ -1,5 +1,25 @@
 EXECUTION_MODEL.md
 
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 NXD execution model
 
 Here’s the spec‑level Execution Model—how an NXD program actually runs, from startup to shutdown.

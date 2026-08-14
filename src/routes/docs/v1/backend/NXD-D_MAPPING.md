@@ -1,5 +1,25 @@
 NXD-D_MAPPING.md
 
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
  # Mapping D
 
 ***D is a systems language, so this backend focuses on:***

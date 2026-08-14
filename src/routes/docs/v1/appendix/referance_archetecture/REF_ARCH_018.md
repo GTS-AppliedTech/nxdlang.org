@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA018: Distributed API Gateway & Edge Router**  
 (rate limiting • routing • auth • caching • WAF)
 

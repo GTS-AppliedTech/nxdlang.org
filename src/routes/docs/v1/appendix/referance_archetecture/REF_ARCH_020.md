@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA020: Distributed Configuration Snapshot & Time‑Travel Platform**  (version snapshots • diffs • rollback • time‑travel queries)
 
 # **Step 1 — Architecture Map (XXL Config Snapshot Platform)**

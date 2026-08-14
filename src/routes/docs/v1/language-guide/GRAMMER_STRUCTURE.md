@@ -1,7 +1,27 @@
 GRAMMAR_STRUCTURE.md
 
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
 
-This is the NXD Grammar Blueprint — the foundation for the AST, IR, compiler, transpiler, and documentation.
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
+# NXD Grammar Blueprint 
+the foundation for the AST, IR, compiler, transpiler, and documentation.
 
 
 NXD Grammar Structure

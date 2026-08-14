@@ -1,6 +1,26 @@
 EQUALITY-MUTATION.md
 
-NXD Equality & Mutation Semantics Specification
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
+# NXD Equality & Mutation Semantics Specification
 
 NXD defines strict, explicit, and predictable rules for equality and mutation across all value categories: primitives, structs, collections, channels, processes, tasks, and bindings.
 

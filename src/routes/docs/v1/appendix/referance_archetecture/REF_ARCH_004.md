@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA004: Compiler Stack**  (NXD front‑end • IR • optimizer • backend mapper)
 
 This system is a full compiler pipeline for NXD:

@@ -1,5 +1,25 @@
  CONCURNC_SFTY_CLAIM.md
 
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # NXD Concurrency Safety Claim 
 
 NXD eliminates shared‑memory concurrency hazards by design.

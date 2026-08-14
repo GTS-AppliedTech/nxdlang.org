@@ -1,4 +1,24 @@
-CONCURRANCY_MODEL.md
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
+# CONCURRANCY_MODEL.md
 
 1. Core concepts
 

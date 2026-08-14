@@ -1,3 +1,23 @@
+#### JSON-LD
+```jsonld
+{
+  "@context": "https://nxdlang.org/schema",
+
+  "doc_id": "",
+  "title": "",
+  "description": "",
+
+  "category": "",
+  "layer": "",
+
+  "keywords": [],
+
+  "version": "1.4.5",
+
+  "status": "active"
+}
+```
+
 # **RA015: Distributed Scheduler & Cron Platform**  (cron • intervals • calendars • distributed timers)
 
 # **Step 1 — Architecture Map (XXL Distributed Scheduler)**

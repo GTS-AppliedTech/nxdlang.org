@@ -60,9 +60,9 @@
 				<ul class="doc-list">
 					{#each node.files as doc}
 						<li id={doc.anchor} class="doc-card">
-                            <a href={doc.url}>
-							   <h3>{doc.title}</h3>
-							   <p>{doc.description}</p>
+                            <a href={doc.url} class="doc-link">
+							   <h3 class="doc-card-title">{doc.title}</h3>
+							   <p class="doc-card-summary">{doc.description}</p>
                             </a>
                         </li>						
 					{/each}
@@ -108,7 +108,7 @@
 		content: '›';
 		display: inline-block;
 		margin-right: 0.5rem;
-		color: #62a6f3;
+		color: #1c97cc;
 		transform: rotate(0deg);
 		transition: transform 0.15s ease;
 	}
@@ -128,7 +128,7 @@
 		padding: 0.2rem 0.55rem;
 		font-size: 0.75rem;
 		background: rgba(98, 166, 243, 0.16);
-		color: #7ad7ff;
+		color: #1c97cc;
 	}
 
 	.section-description {
@@ -150,7 +150,7 @@
 		padding: 0;
 		border-radius: 0.85rem;
 		border: 1px solid #334155;
-		background: rgba(255, 255, 255, 0.03);
+		background: #1e293b;
 	}
 
 	.doc-link {
@@ -165,15 +165,16 @@
 		background: rgba(122, 215, 255, 0.08);
 	}
 
-	.doc-link h3 {
+	.doc-card-title {
 		margin: 0 0 0.35rem;
 		font-size: 1rem;
+		color: #6d28d9;
 	}
 
-	.doc-link p {
+	.doc-card-summary {
 		margin: 0;
 		line-height: 1.55;
-		color: #6d28d9;
+		color: #22c55e;
 	}
 
 	.level-3,
