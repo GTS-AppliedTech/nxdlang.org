@@ -1,18 +1,19 @@
-#  TE0010 — Multi‑Module (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_multimodule_01",
-  "category": "MultiModule",
-  "layer": "tiny",
-  "features": ["modules", "imports", "exports", "namespaces", "init-order"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
 ---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE010",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
+
+#  TE0010 — Multi‑Module (Tiny Layer)
 
 #  Problem Statement
 Demonstrate NXD’s multi‑module system:

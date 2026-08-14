@@ -1,26 +1,19 @@
-NODE_LIST-IR_SPEC.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "CP003",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Compiler",
+  "category": "Compiler",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# Node List & IR Specifications
+
+# CP003 Node List & IR Specifications
 
 ## NXD AST node list
 

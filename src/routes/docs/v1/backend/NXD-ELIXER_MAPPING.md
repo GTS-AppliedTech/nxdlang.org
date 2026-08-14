@@ -1,26 +1,19 @@
-NXD-ELIXIR_MAPPING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "BE003",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Backend",
+  "category": "Backend",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# ELIXIR MAPPING
+
+# BEOO3 ELIXIR MAPPING
 
 1. Modules
 

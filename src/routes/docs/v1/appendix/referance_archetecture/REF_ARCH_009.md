@@ -1,22 +1,17 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RA009",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Referance Architecture",
+  "category": "Referance Architecture",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
+
 
 # **RA009: Distributed Key‑Value Store (Clustered)**  (replication • sharding • consistency • leader election)
 

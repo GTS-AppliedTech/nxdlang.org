@@ -1,20 +1,19 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE002",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 
 # TE002 — Concurrency (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_concurrency_01",
-  "category": "Concurrency",
-  "layer": "tiny",
-  "features": ["process", "task", "channel", "spawn", "send", "recv", "await"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
-
 
 # Problem Statement
 Demonstrate NXD’s core concurrency primitives:

@@ -1,26 +1,19 @@
-VISION.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RO007",
   "title": "",
   "description": "",
-
+  "layer": "Root",
   "category": "",
-  "layer": "",
-
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Vision
+
+# RO007 NXD Vision
 
 ## ***ORIGIN STORY***
 

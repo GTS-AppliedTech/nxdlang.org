@@ -1,16 +1,19 @@
-# ME008: CHANNELS + TASKS: FAN-OUT / FAN-IN
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_08_fanout_fanin",
-  "category": "Concurrency",
-  "layer": "medium",
-  "features": ["channels", "tasks", "fanout", "fanin"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME008",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME008: CHANNELS + TASKS: FAN-OUT / FAN-IN
 
 ### NXD
 ```nxd

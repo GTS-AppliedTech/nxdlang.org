@@ -1,26 +1,19 @@
-OPERATE_SEMANTICS.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RT004",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Runtime",
+  "category": "Runtime",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Operational Semantics
+
+# RT004 Operational Semantics
 
 (Evaluation, Matching, Borrowing, Imports, Initialization, Runtime Ordering)
 

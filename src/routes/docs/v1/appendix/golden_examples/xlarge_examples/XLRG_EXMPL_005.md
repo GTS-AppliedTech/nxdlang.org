@@ -1,28 +1,19 @@
-# XE005: Distributed Metrics Aggregator  (collectors, reducers, rollups, channels, tasks, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_05_metrics_aggregator",
-  "category": "Monitoring",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "metrics",
-    "aggregation",
-    "rollups",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE005",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
 
+# XE005: Distributed Metrics Aggregator  (collectors, reducers, rollups, channels, tasks, multi‑module, supervision)
 
 ## Canonical NXD (XL‑Layer)
 

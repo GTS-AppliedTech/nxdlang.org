@@ -1,26 +1,19 @@
-IR_LOWERING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "CP002",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Compiler",
+  "category": "Compiler",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD IR Lowering Rules
+
+# CP002 IR Lowering Rules
 
 Lowering converts AST → IR by removing syntactic sugar, enforcing semantics, and producing a normalized representation.
 

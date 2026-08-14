@@ -1,26 +1,19 @@
-INVARIANT_MODEL.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "SE006",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Security",
+  "category": "Security",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD INVARIANT MODEL
+
+# SE006 INVARIANT MODEL
 
 ### INVARIANT DOMAINS
 

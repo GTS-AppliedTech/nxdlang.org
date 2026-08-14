@@ -1,15 +1,18 @@
-# LE002: AUTHENTICATION SERVICE (MODULES + TRAITS + GENERICS + SECURITY)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_02_auth_service",
-  "category": "Security",
-  "layer": "large",
-  "features": ["modules", "traits", "generics", "capabilities", "result"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE002",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
+
+# LE002: AUTHENTICATION SERVICE (MODULES + TRAITS + GENERICS + SECURITY)
 
 
 ### NXD

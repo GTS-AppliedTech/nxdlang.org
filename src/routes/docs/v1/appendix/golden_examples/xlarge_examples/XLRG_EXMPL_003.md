@@ -1,27 +1,19 @@
-# XE003: Distributed Logging Mesh (Routers, Filters, Sinks, Channels, Supervision, Multi‑Module)
-
-### JSON‑LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_03_logging_mesh",
-  "category": "Logging",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "routing",
-    "filters",
-    "channels",
-    "processes",
-    "supervision",
-    "result",
-    "option",
-    "init"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE003",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
 
+# XE003: Distributed Logging Mesh (Routers, Filters, Sinks, Channels, Supervision, Multi‑Module)
 
 # Canonical NXD (XL‑Layer)
 

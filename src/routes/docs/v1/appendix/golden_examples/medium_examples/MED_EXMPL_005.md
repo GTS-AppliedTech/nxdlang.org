@@ -1,15 +1,19 @@
-# ME005: RESULT + OPTION COMPOSITION (SAFE LOOKUP + PARSE)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_05_result_option_composition",
-  "category": "ErrorHandling",
-  "layer": "medium",
-  "features": ["result", "option", "match", "composition"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME005",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
+
+
+# ME005: RESULT + OPTION COMPOSITION (SAFE LOOKUP + PARSE)
 
 ### NXD
 ```nxd

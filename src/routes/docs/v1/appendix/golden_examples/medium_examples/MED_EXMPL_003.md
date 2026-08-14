@@ -1,16 +1,19 @@
-# ME003: OWNERSHIP WITH COLLECTIONS (MOVE, BORROW, CLONE ON LIST)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_03_ownership_collections",
-  "category": "Ownership",
-  "layer": "medium",
-  "features": ["move", "borrow", "clone", "lists", "mutation"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME003",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME003: OWNERSHIP WITH COLLECTIONS (MOVE, BORROW, CLONE ON LIST)
 
 ## NXD
 ```nxd

@@ -1,24 +1,19 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RO001",
   "title": "",
   "description": "",
-
+  "layer": "Root",
   "category": "",
-  "layer": "",
-
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.4.5",
   "status": "active"
 }
-```
+---
 
-# NXD Changelog
+
+# RO001 Changelog
 
 ## v1.4.4
 
@@ -129,3 +124,24 @@ Version 1.4.5 represents another step toward a scalable, professionally organize
 
 NXD
  Build Secure. Build Predictable. Build Next.
+
+ ## [1.4.6] - 2026-08-13
+
+### Added
+- Initial FAQ page scaffold.
+- Site favicon integration.
+- Enhanced navigation structure.
+- Metadata sections for each document (examples section is still undone).
+
+### Changed
+- Refactored documentation index card styling.
+- Separated card title and summary styling.
+- Improved documentation index visual consistency.
+- Updated global styling architecture for reusable UI elements.
+- Refined navbar behavior and mobile navigation experience.
+
+### Fixed
+- Documentation card background styling conflicts.
+- Navigation layering and z-index issues.
+- Various visual consistency issues across documentation pages.
+ 

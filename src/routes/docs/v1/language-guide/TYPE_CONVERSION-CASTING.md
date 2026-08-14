@@ -1,26 +1,19 @@
-TYPE_CONVERSION-CASTING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "LG005",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Language Guide",
+  "category": "Language Guide",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Type Conversion & Casting Semantics
+
+# LG004 Type Conversion & Casting Semantics
 
 (Implicit conversions, explicit casts, numeric rules, failure behavior, AS/IS semantics)
 

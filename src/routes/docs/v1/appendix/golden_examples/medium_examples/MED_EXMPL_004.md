@@ -1,16 +1,19 @@
-# ME004: SECURE LOGGING WITH CAPABILITIES + CHANNELS
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_04_secure_logging",
-  "category": "Security",
-  "layer": "medium",
-  "features": ["capabilities", "channels", "process", "security-errors"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME004",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME004: SECURE LOGGING WITH CAPABILITIES + CHANNELS
 
 ## NXD
 ```nxd

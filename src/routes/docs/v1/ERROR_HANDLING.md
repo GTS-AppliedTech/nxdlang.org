@@ -1,26 +1,19 @@
-ERROR_HANDLING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RO003",
   "title": "",
   "description": "",
-
+  "layer": "Root",
   "category": "",
-  "layer": "",
-
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Error Handling Specification
+
+# RO003 Error Handling Specification
 
 NXD defines a unified, semantic error model that works consistently across Nim, Elixir, and D.
 The user sees one system, while backends map it to their native mechanisms.

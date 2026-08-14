@@ -1,16 +1,19 @@
-# ME007: RUNTIME + INIT + CYCLIC-SAFE IMPORTS
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_07_runtime_init_graph",
-  "category": "Runtime",
-  "layer": "medium",
-  "features": ["init", "imports", "topological-order"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME007",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME007: RUNTIME + INIT + CYCLIC-SAFE IMPORTS
 
 ### NXD
 ```nxd

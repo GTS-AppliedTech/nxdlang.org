@@ -1,19 +1,19 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE004",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
 
 #  TE004 — Ownership (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_ownership_01",
-  "category": "Ownership",
-  "layer": "tiny",
-  "features": ["move", "borrow", "clone", "immutability", "value-transfer"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
----
 
 #  Problem Statement
 Demonstrate NXD’s ownership semantics:

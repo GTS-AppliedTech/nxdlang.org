@@ -1,26 +1,19 @@
-GRAMMAR_STRUCTURE.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "LG003",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Language Guide",
+  "category": "Language Guide",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Grammar Blueprint 
+
+# LG003 Grammar Blueprint 
 the foundation for the AST, IR, compiler, transpiler, and documentation.
 
 

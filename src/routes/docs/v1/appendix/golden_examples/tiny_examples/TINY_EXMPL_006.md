@@ -1,22 +1,21 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE006",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 
 # TE006 — Error Handling (Tiny Layer)
 
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_error_01",
-  "category": "ErrorHandling",
-  "layer": "tiny",
-  "features": ["try", "catch", "result", "raise", "pattern-matching"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
----
-
-#  Problem Statement
+## Problem Statement
 Demonstrate NXD’s structured error‑handling model:
 
 - `TRY / CATCH` for exception‑style handling  

@@ -1,26 +1,19 @@
-# XE002: DISTRIBUTED CONFIGURATION SERVICE (MULTI-MODULE, VERSIONING, WATCHERS, CHANNELS, TASKS, RESULT, OPTION)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_02_config_service",
-  "category": "Configuration",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "versioning",
-    "watchers",
-    "channels",
-    "tasks",
-    "result",
-    "option",
-    "init",
-    "supervision"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE002",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# XE002: DISTRIBUTED CONFIGURATION SERVICE (MULTI-MODULE, VERSIONING, WATCHERS, CHANNELS, TASKS, RESULT, OPTION)
 
 ### NXD
 ```nxd

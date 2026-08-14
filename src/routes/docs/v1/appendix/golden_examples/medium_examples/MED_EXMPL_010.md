@@ -1,16 +1,19 @@
-# ME010: MULTI-MODULE SERVICE: AUTH + USER + APP
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_10_auth_user_app",
-  "category": "MultiModule",
-  "layer": "medium",
-  "features": ["modules", "imports", "security", "services"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME010",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME010: MULTI-MODULE SERVICE: AUTH + USER + APP
 
 ### NXD
 ```nxd

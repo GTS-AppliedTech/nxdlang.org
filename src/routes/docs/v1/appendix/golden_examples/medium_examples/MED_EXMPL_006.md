@@ -1,16 +1,19 @@
-# ME006: GENERICS + TRAITS: SORTABLE LIST
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_06_sortable_list",
-  "category": "Generics",
-  "layer": "medium",
-  "features": ["generics", "traits", "constraints", "sorting"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME006",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME006: GENERICS + TRAITS: SORTABLE LIST
 
 ### NXD
 ```nxd

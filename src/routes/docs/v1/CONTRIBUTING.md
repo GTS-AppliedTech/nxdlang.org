@@ -1,24 +1,19 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RO002",
   "title": "",
   "description": "",
-
+  "layer": "Root",
   "category": "",
-  "layer": "",
-
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# **CONTRIBUTING.md**
+
+# RO002 CONTRIBUTING
 
 ## **Welcome**
 Thank you for your interest in contributing to **NXD** — a multi‑backend systems language targeting Nim, Elixir, and D.  

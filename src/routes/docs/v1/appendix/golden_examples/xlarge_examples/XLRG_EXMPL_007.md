@@ -1,29 +1,20 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE007",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
+
 # XE007: Distributed Storage Replicator
   (replication streams, consistency, channels, multi‑module, supervision, conflict resolution)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_07_storage_replicator",
-  "category": "Storage",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "replication",
-    "consistency",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision",
-    "conflict-resolution"
-  ]
-}
-```
-
-
 
 # Canonical NXD (XL‑Layer)
 

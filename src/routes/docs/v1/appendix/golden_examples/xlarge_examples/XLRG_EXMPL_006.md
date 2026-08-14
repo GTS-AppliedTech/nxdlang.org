@@ -1,29 +1,20 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE006",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
+
 # XE006: Distributed Notification Hub  
 (topics, subscriptions, fan‑out, channels, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_06_notification_hub",
-  "category": "Messaging",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "topics",
-    "subscriptions",
-    "fanout",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision"
-  ]
-}
-```
-
-
 
 ## Canonical NXD (XL‑Layer)
 

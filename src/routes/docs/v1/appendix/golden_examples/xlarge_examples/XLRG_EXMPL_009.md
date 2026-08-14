@@ -1,30 +1,20 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE009",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
+
 # XE009: Distributed Threat Intelligence Pipeline
   (ingest, normalize, enrich, correlate, channels, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_09_threat_intel_pipeline",
-  "category": "Security",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "ingest",
-    "normalization",
-    "enrichment",
-    "correlation",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision"
-  ]
-}
-```
-
-
 
 # Canonical NXD (XL‑Layer)
 

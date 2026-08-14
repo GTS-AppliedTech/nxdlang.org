@@ -1,26 +1,19 @@
-EXECUTION_MODEL.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RT003",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Runtime",
+  "category": "Runtime",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-NXD execution model
+
+# RT003 execution model
 
 Here’s the spec‑level Execution Model—how an NXD program actually runs, from startup to shutdown.
 

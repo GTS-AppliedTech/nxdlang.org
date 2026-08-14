@@ -1,22 +1,20 @@
-
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE008",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 #  TE008 — Runtime (Tiny Layer)
 
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_runtime_01",
-  "category": "Runtime",
-  "layer": "tiny",
-  "features": ["init-block", "module-loading", "left-to-right-eval", "cyclic-imports", "execution-order"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
----
-
-#  Problem Statement
+## Problem Statement
 Demonstrate NXD’s runtime semantics:
 
 - `INIT` blocks execute once at startup  
@@ -56,7 +54,7 @@ FUNC MAIN():
 
 ---
 
-#  Semantic Notes
+##  Semantic Notes
 - `INIT` blocks run **once**, before any function calls.  
 - Module initialization order is determined by import topology:  
   - `runtime.core` initializes first  
@@ -67,7 +65,7 @@ FUNC MAIN():
 
 ---
 
-#  Backend Outputs
+##  Backend Outputs
 
 ### Nim
 ```nim
@@ -148,7 +146,7 @@ void main() {
 
 ---
 
-#  Audit Rules
+## Audit Rules
 - INIT blocks must execute in topological order.  
 - No cyclic INIT dependencies allowed.  
 - Left‑to‑right evaluation must be preserved.  

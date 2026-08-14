@@ -1,22 +1,17 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RA013",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Referance Architecture",
+  "category": "Referance Architecture",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
+
 
 # *RAO13: Distributed Identity & Access Federation**  (OAuth2 • JWT • SSO • trust domains • identity graph)
 

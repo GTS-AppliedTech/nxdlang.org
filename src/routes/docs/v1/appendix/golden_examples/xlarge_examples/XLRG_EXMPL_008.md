@@ -1,30 +1,20 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE008",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
+
+
 # XE008: Distributed Access Control Engine 
  (policy evaluation, roles, capabilities, channels, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_08_access_control_engine",
-  "category": "Security",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "rbac",
-    "abac",
-    "capabilities",
-    "policy-evaluation",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision"
-  ]
-}
-```
-
-
 
 # Canonical NXD (XL‑Layer)
 

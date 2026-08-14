@@ -1,26 +1,19 @@
-GENERIC_CONSTRAINTS.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "LG002",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Language Guide",
+  "category": "Language Guide",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# Generic Constraints Specification
+
+# LG002 Generic Constraints Specification
 
 (Traits, constraint resolution, multiple constraints, backend mapping, semantics)
 

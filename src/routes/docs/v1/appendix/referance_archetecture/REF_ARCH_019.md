@@ -1,22 +1,17 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RA019",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Referance Architecture",
+  "category": "Referance Architecture",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
+
 
 # **RA019: Distributed Feature Flag & Rollout Platform**  (percent rollout • canary • A/B testing • targeting)
 

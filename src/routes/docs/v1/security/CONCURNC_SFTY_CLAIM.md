@@ -1,26 +1,19 @@
- CONCURNC_SFTY_CLAIM.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "SE003",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Security",
+  "category": "Security",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Concurrency Safety Claim 
+
+# SE003 Concurrency Safety Claim 
 
 NXD eliminates shared‑memory concurrency hazards by design.
 Concurrency is expressed exclusively through actor isolation and typed message passing.

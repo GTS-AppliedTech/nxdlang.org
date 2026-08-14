@@ -1,20 +1,19 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE003",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 
 # TE003 — Channels (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_channels_01",
-  "category": "Channels",
-  "layer": "tiny",
-  "features": ["channel", "send", "recv", "fifo-ordering", "process"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
-
 
 # Problem Statement
 Demonstrate NXD’s typed channel semantics:

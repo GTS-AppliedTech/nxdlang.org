@@ -1,21 +1,19 @@
- **Golden Example #9 — Compiler Plugin**, 
-
 ---
-# TE009 — Compiler Plugin (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_plugin_01",
-  "category": "CompilerPlugin",
-  "layer": "tiny",
-  "features": ["plugin", "compile-time-transform", "ast-hook", "diagnostics"],
-  "backend_targets": ["nim", "elixir", "d"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE009",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
-
 ---
+
+
+# TE009 — Compiler Plugin (Tiny Layer)
 
 #  Problem Statement
 Demonstrate NXD’s **compiler plugin** mechanism:

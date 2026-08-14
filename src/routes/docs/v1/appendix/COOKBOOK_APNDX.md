@@ -1,16 +1,13 @@
- COOKBOOK_APNDX.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
 
-  "doc_id": "",
+  "doc_id": "CB001",
   "title": "",
   "description": "",
 
-  "category": "",
-  "layer": "",
+  "category": "Cookbook Appendix",
+  "layer": "Cookbook Appendix",
 
   "keywords": [],
 
@@ -20,7 +17,7 @@
 }
 ```
 
-# COOKBOOK APPENDIX
+# CB001 COOKBOOK APPENDIX
 
 ## APPENDIX A
 

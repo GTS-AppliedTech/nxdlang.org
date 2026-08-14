@@ -1,26 +1,19 @@
-NXD-D_MAPPING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "BE002",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Backend",
+  "category": "Backend",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
- # Mapping D
+
+# BE002 Mapping D
 
 ***D is a systems language, so this backend focuses on:***
 

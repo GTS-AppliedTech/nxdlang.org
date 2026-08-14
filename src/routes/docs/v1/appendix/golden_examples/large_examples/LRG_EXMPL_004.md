@@ -1,16 +1,18 @@
-# LE004: EVENT BUS (PUB/SUB + CHANNELS + PROCESSES + MULTI-MODULE)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_04_event_bus",
-  "category": "Concurrency",
-  "layer": "large",
-  "features": ["pubsub", "channels", "processes", "modules"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE004",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE004: EVENT BUS (PUB/SUB + CHANNELS + PROCESSES + MULTI-MODULE)
 
 ### NXD
 ```nxd

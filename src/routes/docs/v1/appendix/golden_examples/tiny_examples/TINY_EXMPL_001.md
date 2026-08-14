@@ -1,21 +1,19 @@
-
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE001",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 
 # TE001 — CRUD (Create/Read/Update/Delete)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_crud_01",
-  "category": "CRUD",
-  "layer": "tiny",
-  "features": ["structs", "mutation", "value-equality"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
-
 
 ## Problem Statement
 Demonstrate basic CRUD operations on a `PERSON` struct using NXD’s `LET`, `SET`, field mutation, and value equality semantics.

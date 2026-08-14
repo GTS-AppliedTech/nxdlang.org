@@ -1,29 +1,19 @@
-# XE010: Security Orchestration & Automated Response (SOAR)  (playbooks, triggers, actions, automation, channels, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_10_soar_engine",
-  "category": "Security",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "playbooks",
-    "automation",
-    "actions",
-    "triggers",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "option",
-    "supervision"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE010",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
 
+# XE010: Security Orchestration & Automated Response (SOAR)  (playbooks, triggers, actions, automation, channels, multi‑module, supervision)
 
 # Canonical NXD (XL‑Layer)
 

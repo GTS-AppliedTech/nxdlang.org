@@ -1,25 +1,19 @@
-# XE001: DISTRIBUTED JOB ORCHESTRATION (MULTI-SERVICE, MULTI-MODULE, SUPERVISION)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_01_distributed_jobs",
-  "category": "Orchestration",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "services",
-    "channels",
-    "processes",
-    "tasks",
-    "result",
-    "supervision",
-    "logging"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE001",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# XE001: DISTRIBUTED JOB ORCHESTRATION (MULTI-SERVICE, MULTI-MODULE, SUPERVISION)
 
 ### NXD
 ```nxd

@@ -1,16 +1,18 @@
-# LE008: JOB SCHEDULER (TASKS + CHANNELS + TIMERS + RESULT)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_08_scheduler",
-  "category": "Concurrency",
-  "layer": "large",
-  "features": ["tasks", "channels", "timers", "result"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE008",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE008: JOB SCHEDULER (TASKS + CHANNELS + TIMERS + RESULT)
 
 ### NXD
 ```nxd

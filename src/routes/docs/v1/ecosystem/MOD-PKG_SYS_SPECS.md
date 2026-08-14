@@ -1,26 +1,19 @@
-# MOD-PKG_SYS_SPECS.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "ES002",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Ecosystem",
+  "category": "Ecosystem",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NXD Module & Package System Specification
+
+# ES002 Module & Package System Specification
 
 NXD’s module system defines how code is organized, named, imported, exported, versioned, and distributed across projects and backends.
 It must unify three incompatible ecosystems:
@@ -39,12 +32,12 @@ Backends map it to their native systems.
 
 A module is the smallest unit of code organization in NXD.
 
-# Syntax
+### Syntax
 
 MODULE math.geometry
 
 
-# Semantics
+### Semantics
 
 • Defines a namespace.
 • Corresponds to a single .nxd file.
@@ -52,7 +45,7 @@ MODULE math.geometry
 • The module name must match the file path.
 
 
-# File mapping
+### File mapping
 
 MODULE math.geometry
 
@@ -62,7 +55,7 @@ MODULE math.geometry
 math/geometry.nxd
 
 
-# Backend mapping
+### Backend mapping
 
 • Nim → math/geometry.nim
 • Elixir → math/geometry.ex with defmodule Math.Geometry
@@ -80,7 +73,7 @@ IMPORT math.geometry AS geo
 IMPORT security.crypto HASH
 
 
-# Forms
+### Forms
 
 2.1. Simple import
 
@@ -100,14 +93,14 @@ IMPORT math.geometry AS geo
 IMPORT security.crypto HASH
 
 
-# Semantics
+### Semantics
 
 • Imports are lexically scoped to the module.
 • Aliases create local namespace shortcuts.
 • Selective imports bring specific symbols into scope.
 
 
-# Backend mapping
+## Backend mapping
 
 Nim
 
@@ -140,14 +133,14 @@ EXPORT TYPE POINT
 EXPORT ALL
 
 
-# Rules
+### Rules
 
 • EXPORT ALL exports all public declarations.
 • Individual exports allow fine‑grained control.
 • Unexported symbols remain module‑private.
 
 
-# Backend mapping
+### Backend mapping
 
 Nim
 ```nim
@@ -172,7 +165,7 @@ public struct Point { ... }
 
 NXD packages are collections of modules with metadata.
 
-# Package file
+### Package file
 
 Every package contains a package.nxd manifest:
 
@@ -185,7 +178,7 @@ math = ">=1.0.0"
 security.crypto = "^2.1.0"
 
 
-# Semantics
+### Semantics
 
 • Defines package identity.
 • Defines versioning rules.
@@ -193,7 +186,7 @@ security.crypto = "^2.1.0"
 • Used by the NXD build system and package manager.
 
 
-# Backend mapping
+### Backend mapping
 
 NXD packages map to:
 
@@ -215,14 +208,14 @@ NXD defines three visibility levels:
 • internal — visible within the same package
 
 
-# Syntax
+### Syntax
 
 PUBLIC FUNC AREA
 PRIVATE FUNC NORMALIZE
 INTERNAL TYPE VECTOR
 
 
-# Backend mapping
+### Backend mapping
 
 • Nim → * for public, no marker for private
 • Elixir → public functions by default, private via defp
@@ -238,7 +231,7 @@ INIT:
     PRINTLN("geometry module loaded")
 
 
-# Backend mapping:
+### Backend mapping:
 
 • Nim → static: blocks
 • Elixir → module attributes or @on_load

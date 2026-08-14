@@ -1,16 +1,18 @@
-# LE003: KEY-VALUE DATABASE (MAPS + PERSISTANCE SIMULATION + RESULT + OPTION)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_03_kv_database",
-  "category": "Storage",
-  "layer": "large",
-  "features": ["maps", "result", "option", "modules", "mutation"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE003",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE003: KEY-VALUE DATABASE (MAPS + PERSISTANCE SIMULATION + RESULT + OPTION)
 
 ### NXD
 ```nxd

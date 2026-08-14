@@ -1,16 +1,18 @@
-# LE005: COMPILER LINTER PLUGIN (AST HOOKS + DIAGNOSTICS + MULTI-RULE)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_05_linter",
-  "category": "CompilerPlugin",
-  "layer": "large",
-  "features": ["plugin", "ast", "diagnostics", "rules"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE005",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE005: COMPILER LINTER PLUGIN (AST HOOKS + DIAGNOSTICS + MULTI-RULE)
 
 ### NXD
 ```nxd

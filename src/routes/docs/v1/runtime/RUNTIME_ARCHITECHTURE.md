@@ -1,26 +1,19 @@
-RUNTIME_ARCHITECTURE.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RT005",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Runtime",
+  "category": "Runtime",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-NXD runtime architecture
+
+# RT005 runtime architecture
 
 
 1. Separation of concerns

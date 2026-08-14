@@ -1,24 +1,19 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RT002",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Runtime",
+  "category": "Runtime",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# CONCURRANCY_MODEL.md
+
+# RT002 CONCURRANCY_MODEL.md
 
 1. Core concepts
 

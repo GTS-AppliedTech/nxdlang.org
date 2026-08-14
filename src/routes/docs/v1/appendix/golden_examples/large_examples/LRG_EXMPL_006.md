@@ -1,15 +1,18 @@
-# LE006: MESSAGING MICROSERVICE (AUTH + CHANNELS + PROCESSES + RESULT)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_06_messaging_service",
-  "category": "Networking",
-  "layer": "large",
-  "features": ["auth", "channels", "processes", "result", "modules"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE006",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
+
+# LE006: MESSAGING MICROSERVICE (AUTH + CHANNELS + PROCESSES + RESULT)
 
 ### NXD
 ```nxd

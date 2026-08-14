@@ -1,16 +1,18 @@
-# LE007: CONFIGURATION LOADER (MODULES + INIT + RESULT + OPTION + PARSING)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_07_config_loader",
-  "category": "Runtime",
-  "layer": "large",
-  "features": ["init", "modules", "result", "option", "parsing"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE007",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE007: CONFIGURATION LOADER (MODULES + INIT + RESULT + OPTION + PARSING)
 
 ### NXD
 ```nxd

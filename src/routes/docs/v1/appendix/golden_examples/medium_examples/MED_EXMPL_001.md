@@ -1,15 +1,18 @@
-# ME001: USER SERVICE (CRUD + RESULT + OPTION)
-
-JSON_LD
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_01_user_service",
-  "category": "CRUD",
-  "layer": "medium",
-  "features": ["structs", "maps", "option", "result", "error-handling"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME001",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
+
+# ME001: USER SERVICE (CRUD + RESULT + OPTION)
 
 ### NXD
 ```nxd

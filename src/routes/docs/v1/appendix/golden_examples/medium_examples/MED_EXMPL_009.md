@@ -1,16 +1,19 @@
-# ME009: COMPILER PLUGIN: ENFORCE EXPLICIT AS ON NUMERIC OPS
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_09_plugin_cast_policy",
-  "category": "CompilerPlugin",
-  "layer": "medium",
-  "features": ["plugin", "casts", "diagnostics"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME009",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME009: COMPILER PLUGIN: ENFORCE EXPLICIT AS ON NUMERIC OPS
 
 ### NXD
 ```nxd

@@ -1,26 +1,19 @@
-# XE004: Distributed Security Event Correlator  (events, rules, correlation windows, channels, tasks, multi‑module, supervision)
-
-### JSON‑LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_xl_04_security_correlator",
-  "category": "Security",
-  "layer": "xl",
-  "features": [
-    "multi-module",
-    "event-streams",
-    "correlation-windows",
-    "channels",
-    "tasks",
-    "result",
-    "option",
-    "supervision",
-    "rule-engine"
-  ]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "XE004",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "XL Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# XE004: Distributed Security Event Correlator  (events, rules, correlation windows, channels, tasks, multi‑module, supervision)
 
 ## Canonical NXD (XL‑Layer)
 

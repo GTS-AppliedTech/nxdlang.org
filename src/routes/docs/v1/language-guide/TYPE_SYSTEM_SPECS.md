@@ -1,26 +1,19 @@
-TYPE_SYSTEM_SPECS.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "LG006",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Language Guide",
+  "category": "Language Guide",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-#NXD type system specification
+
+# LG005 type system specification
 
 1. Primitive types
 

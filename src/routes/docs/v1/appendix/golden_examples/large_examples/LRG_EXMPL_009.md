@@ -1,16 +1,18 @@
-# LE009: MULTI-MODULE E-COMMERCE CART (STRUCTS + MAPS + RESULT + TRAITS)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_large_09_cart",
-  "category": "Application",
-  "layer": "large",
-  "features": ["structs", "maps", "result", "traits", "modules"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "LE009",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Large Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+# LE009: MULTI-MODULE E-COMMERCE CART (STRUCTS + MAPS + RESULT + TRAITS)
 
 ### NXD
 ```nxd

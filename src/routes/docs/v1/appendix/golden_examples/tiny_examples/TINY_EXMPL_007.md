@@ -1,20 +1,19 @@
+---
+{
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "TE007",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Tiny Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
+}
+---
 
 
 #  TE007 — Generics (Tiny Layer)
-
-### JSON‑LD Metadata
-```jsonld
-{
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_generics_01",
-  "category": "Generics",
-  "layer": "tiny",
-  "features": ["generic-types", "generic-functions", "trait-constraints"],
-  "backend_targets": ["nim", "elixir", "d"]
-}
-```
-
----
 
 #  Problem Statement
 Demonstrate NXD’s generic type and generic function system:

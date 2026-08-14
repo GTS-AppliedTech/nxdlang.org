@@ -1,26 +1,21 @@
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "RO005",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Root",
+  "category": "Legal",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-MIT License
 
-Copyright (c) 2026 G.T.S. Applied Technologies LLC
+# RO005 MIT License
+
+##### Copyright (c) 2026 G.T.S. Applied Technologies LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,26 +1,19 @@
-NXD-NIM_MAPPING.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "BE004",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Backend",
+  "category": "Backend",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# NIM MAPPING
+
+# BE004 NIM MAPPING
 
 This is the first backend in the multi‑backend compiler, and Nim is the easiest target because:
 

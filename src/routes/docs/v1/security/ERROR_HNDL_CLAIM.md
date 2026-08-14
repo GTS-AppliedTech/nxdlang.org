@@ -1,26 +1,19 @@
-ERROR_HNDL_CLAIM.md
-
-#### JSON-LD
-```jsonld
+---
 {
   "@context": "https://nxdlang.org/schema",
-
-  "doc_id": "",
+  "doc_id": "SE004",
   "title": "",
   "description": "",
-
-  "category": "",
-  "layer": "",
-
+  "layer": "Security",
+  "category": "Security",
   "keywords": [],
-
-  "version": "1.4.5",
-
+  "doc_version": "1.0",
   "status": "active"
 }
-```
+---
 
-# ERROR HANDLING CLAIM
+
+# SE004 ERROR HANDLING CLAIM
 
 NXD enforces explicit error handling through closed union types (RESULT, OPTION) and exhaustive pattern matching.
 

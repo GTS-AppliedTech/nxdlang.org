@@ -1,16 +1,19 @@
-# ME002: CONCURRANCY PIPELINE (PRODUCER -> WORKER -> SINK)
-
-### JSON-LD Metadata
-```jsonld
+---
 {
-  "@context": "https://schema.nxd.dev/example",
-  "example_id": "nxd_medium_02_concurrency_pipeline",
-  "category": "Concurrency",
-  "layer": "medium",
-  "features": ["process", "channel", "pipeline", "spawn", "recv", "send"]
+  "@context": "https://nxdlang.org/schema",
+  "doc_id": "ME002",
+  "title": "",
+  "description": "",
+  "layer": "Examples",
+  "category": "Medium Examples",
+  "keywords": [],
+  "doc_version": "1.0",
+  "status": "active"
 }
-```
+---
 
+
+# ME002: CONCURRANCY PIPELINE (PRODUCER -> WORKER -> SINK)
 
 ### NXD
 ```nxd
