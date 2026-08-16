@@ -7,8 +7,8 @@
   "layer": "Root",
   "category": "",
   "keywords": [],
-  "site_version": "1.4.5",
-  "project_version": "1.0.0",
+  "site_version": "1.6.8",
+  "project_version": "1.0.1",
   "status": "active"
 }
 ---
@@ -146,3 +146,62 @@ NXD
 - Navigation layering and z-index issues.
 - Various visual consistency issues across documentation pages.
  
+ # NXD Language Website Changelog
+
+## Version 1.6.8
+**Release Date:** August 16, 2026
+
+### Added — Semantic Conformance Section
+
+A new top-level documentation section, **Semantic Conformance**, has been added to the NXD Language website.
+
+This section establishes the formal semantic rules used to determine whether a program is considered valid beyond lexical and grammatical correctness. Semantic Conformance serves as the authoritative reference for compiler semantic validation and language behavior.
+
+The following specifications were introduced:
+
+- **SC001** — Backend Equivalence Classification Semantics
+- **SC002** — Capability Security Semantics
+- **SC003** — Concurrency and Mailbox Semantics
+- **SC004** — Core Semantic Equivalence
+- **SC005** — Move Borrow Clone Semantics
+- **SC006** — none and Option Semantics
+- **SC007** — Shared State and Ownership Semantics
+
+### Updated — Documentation Architecture
+
+Documentation navigation was expanded to accommodate the new Semantic Conformance specification family.
+
+Changes include:
+
+- Added Semantic Conformance as a first-class documentation category
+- Integrated SC001–SC007 into the documentation hierarchy
+- Updated cross-references between language specifications
+- Expanded semantic coverage across compiler-facing documents
+
+### Updated — Existing Specifications
+
+The following documents were revised to align with the new semantic model:
+
+- RO002 — Lexical Specification
+- LG004 — Type Conversion & Casting Semantics
+- LG005 — Type System Specification
+- RT002 — Concurrency Model
+- ES003 — Standard Library Layout
+
+### Improved — Specification Consistency
+
+Documentation was reviewed and updated to improve consistency between:
+
+- Lexical rules
+- Grammar definitions
+- Type semantics
+- Ownership semantics
+- Trait requirements
+- Casting behavior
+- Concurrency constructs
+
+### Summary
+
+Version 1.6.8 introduces the Semantic Conformance specification family, significantly expanding the formal language definition and establishing the foundation for semantic validation across future compiler implementations.
+
+The addition of SC001-SC007 represents the largest documentation expansion since the 1.0.0 language specification milestone and further advances NXD's documentation-first development approach.

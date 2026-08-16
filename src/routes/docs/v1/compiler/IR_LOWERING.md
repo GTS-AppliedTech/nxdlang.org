@@ -129,7 +129,7 @@ IF_STMT_NODE → IRIf(cond, then_block, else_block?)
 
 MATCH
 
-MATCH is syntactic sugar. It lowers into IRMatch.
+MATCH syntax lowers into the normalized IRMatch representation.
 
 MATCH_STMT_NODE → IRMatch(target, cases)
 CASE_BLOCK_NODE → IRMatchCase(pattern, body)
