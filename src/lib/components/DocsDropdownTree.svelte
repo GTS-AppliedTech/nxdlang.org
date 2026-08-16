@@ -38,7 +38,7 @@
 	{#each nodes as node}
 		<details 
           class="tree-section" 
-          open={shouldOpen(level)}
+          open={false}
           id={
             node.name === 'golden_examples'
             ? 'examples'

@@ -1,11 +1,11 @@
 ---
 {
   "@context": "https://nxdlang.org/schema",
-  "doc_id": "RO007",
+  "doc_id": "RO004",
   "title": "",
   "description": "",
   "layer": "Root",
-  "category": "",
+  "category": "Vision",
   "keywords": [],
   "doc_version": "1.0",
   "status": "active"
@@ -13,7 +13,7 @@
 ---
 
 
-# RO007 NXD Vision
+# RO004 NXD Vision
 
 ## ***ORIGIN STORY***
 

@@ -13,7 +13,7 @@
 ---
 
 
-# CP001 Compiler Architechture
+# CP001 Compiler Architecture
 
 ## Layer	Role	
 

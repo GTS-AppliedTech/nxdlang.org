@@ -1,11 +1,11 @@
 ---
 {
   "@context": "https://nxdlang.org/schema",
-  "doc_id": "RO006",
+  "doc_id": "RO003",
   "title": "",
   "description": "",
   "layer": "Root",
-  "category": "",
+  "category": "Memory",
   "keywords": [],
   "doc_version": "1.0",
   "status": "active"
@@ -13,7 +13,7 @@
 ---
 
 
-# RO006 Memory Management
+# RO003 Memory Management
 
 1. Design stance
 

@@ -20,7 +20,7 @@
     medium_examples: 'Medium Examples',
     large_examples: 'Large Examples',
     xlarge_examples: 'XLarge Examples',
-    referance_archetecture: 'Reference Architecture'
+    'referance_architecture': 'Referance Architecture'
   };
 
   /** @type {Record<string, string>} */
@@ -37,7 +37,7 @@
     medium_examples: 'Mid-sized examples that demonstrate common constructs.',
     large_examples: 'Larger examples that exercise more of the language.',
     xlarge_examples: 'Very large examples for architecture and scale testing.',
-    referance_archetecture: 'Reference architecture snapshots and design notes.'
+    'referance_architecture': 'Referance architecture snapshots and design notes.'
   };
 
   /** @type {Record<string, string>} */
@@ -49,14 +49,14 @@
     'v1/backend/NXD-D_MAPPING.md': 'docs',
     'v1/appendix/COOKBOOK_APNDX.md': 'docs',
     'v1/language-guide': 'docs',
-    'v1/appendix/golden_examples': 'docs'
+    'v1/appendix/golden_examples': 'docs',
   };
 
   /** @type {Record<string, string>} */
   const routeOverrides = {
     'v1/VISION.md': '/docs/v1/vision',
     'v1/CONTRIBUTING.md': '/docs/v1/contributing',
-    'v1/LICENSE.txt': '/docs/v1/license',
+    'v1/LICENSE.md': '/docs/v1/license',
     'v1/appendix/COOKBOOK_APNDX.md': '/docs/v1/appendix/cookbook-apndx'
   };
 
@@ -106,7 +106,7 @@
     if (base.includes('build')) return 'Build system requirements and packaging guidance.';
     if (base.includes('package')) return 'Module and package management specifications.';
     if (base.includes('example')) return 'Reference example demonstrating a language feature or pattern.';
-    if (base.includes('ref_arch')) return 'Reference architecture snapshot used for design comparison.';
+    if (base.includes('ref_arch')) return 'Referance architecture snapshot used for design comparison.';
 
     return 'Technical reference material for the surrounding subsystem.';
   }
