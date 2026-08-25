@@ -23,11 +23,45 @@
 
     <div class="status-block">
       <h2>Current Status</h2>
-      <p class="status">Active specification and documentation development. The current public release focuses on architecture,
-        specifications, examples, and reference documentation.</p>
-      <p class="status-callout">Community Review Requested</p>
+      <p class="status">Active compiler validationand language development. NXD currently includes a functional compiler pipeline,
+         semantic analysis framework, intermediate representation system, and an actively validated Nim backend.</p>
+      <p class="status-callout">Stage 2 - Core Compiler & Open Source</p>
       <p>
-        NXD is currently seeking feedback from experienced Nim, Elixir, and D developers.
+        NXD is currently undergoing structured validation and is seeking feedback from Nim, D, Elixer,
+         compiler, security, and language design contributors.
+      </p>
+      <div class="milestone-meter" role="img" aria-label="Milestone progress: 2 of 7 milestones complete">
+        <div class="meter-heading">
+          <span>Current Development Stage</span>
+          <strong>2 / 7</strong>
+        </div>
+        <div class="thermometer" aria-hidden="true">
+          <div class="thermometer-tube">
+            <span class="milestone-segment"></span>
+            <span class="milestone-segment"></span>
+            <span class="milestone-segment"></span>
+            <span class="milestone-segment"></span>
+            <span class="milestone-segment"></span>
+            <span class="milestone-segment active"></span>
+            <span class="milestone-segment active"></span>
+          </div>
+          <div class="thermometer-bulb"></div>
+        </div>
+        <div class="meter-caption">
+          <span>Current Stage</span>
+          <span>Core Compiler & Open Source</span>
+        </div>
+      </div>
+
+      <div class="validation-summary">
+        <p><strong>Validation Coverage:</strong> 64 Cases</p>
+        <p><strong>Positive Validation:</strong> 25 / 40 Passing</p>
+        <p><strong>Negative Validation:</strong> 17 / 24 Correctly Rejected</p>
+      </div>
+      <p class="update-notice">
+        Website content is updated weekly. For the most current
+       project status, validation results, development activity,
+       and source code, please visit the GitHub repository.
       </p>
       <p>
         If you are fluent in one or more of these ecosystems, please consider reviewing the language specifications,
@@ -176,6 +210,76 @@
     margin: 0 0 0.75rem;
     color: #62a6f3;
     font-weight: 700;
+  }
+
+  .milestone-meter {
+    margin: 1.25rem 0 1.1rem;
+    padding: 1rem;
+    border: 1px solid rgba(98, 166, 243, 0.22);
+    border-radius: 0.75rem;
+    background: rgba(7, 17, 31, 0.42);
+  }
+
+  .meter-heading,
+  .meter-caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .meter-heading {
+    align-items: baseline;
+    color: #dce7f5;
+    font-size: 0.9rem;
+  }
+
+  .meter-heading strong {
+    color: #7ad7ff;
+    font-size: 1.2rem;
+  }
+
+  .thermometer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0.7rem;
+  }
+
+  .thermometer-tube {
+    display: grid;
+    grid-template-rows: repeat(7, 0.55rem);
+    gap: 0.2rem;
+    width: min(100%, 22rem);
+    padding: 0.45rem 0.55rem;
+    border: 1px solid rgba(220, 231, 245, 0.2);
+    border-radius: 999px 999px 0.35rem 0.35rem;
+    background: rgba(220, 231, 245, 0.08);
+  }
+
+  .milestone-segment {
+    display: block;
+    border-radius: 999px;
+    background: rgba(220, 231, 245, 0.18);
+  }
+
+  .milestone-segment.active {
+    background: #7ad7ff;
+    box-shadow: 0 0 10px rgba(122, 215, 255, 0.48);
+  }
+
+  .thermometer-bulb {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: -0.35rem;
+    border: 1px solid rgba(220, 231, 245, 0.2);
+    border-radius: 50%;
+    background: #7ad7ff;
+    box-shadow: 0 0 14px rgba(122, 215, 255, 0.5);
+  }
+
+  .meter-caption {
+    color: #9fb0c5;
+    font-size: 0.78rem;
   }
 
   .status-block p {
