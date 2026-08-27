@@ -23,17 +23,19 @@
 
     <div class="status-block">
       <h2>Current Status</h2>
-      <p class="status">Active compiler validationand language development. NXD currently includes a functional compiler pipeline,
+      <p class="status">Active compiler validation and language development. NXD currently includes a functional compiler pipeline,
          semantic analysis framework, intermediate representation system, and an actively validated Nim backend.</p>
       <p class="status-callout">Stage 2 - Core Compiler & Open Source</p>
+      <p class="status-subcallout"> Status: In Progress</p>
+
       <p>
-        NXD is currently undergoing structured validation and is seeking feedback from Nim, D, Elixer,
+        NXD is currently undergoing structured validation and is seeking feedback from Nim, D, Elixir,
          compiler, security, and language design contributors.
       </p>
-      <div class="milestone-meter" role="img" aria-label="Milestone progress: 2 of 7 milestones complete">
+      <div class="milestone-meter" role="img" aria-label="Current development stage: Stage 2 of 7">
         <div class="meter-heading">
           <span>Current Development Stage</span>
-          <strong>2 / 7</strong>
+          <strong>Stage 2 / 7</strong>
         </div>
         <div class="thermometer" aria-hidden="true">
           <div class="thermometer-tube">
@@ -54,9 +56,14 @@
       </div>
 
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 64 Cases</p>
+        <p><strong>Validation Coverage:</strong> 64 Cases As of 08-25-2026</p>
         <p><strong>Positive Validation:</strong> 25 / 40 Passing</p>
         <p><strong>Negative Validation:</strong> 17 / 24 Correctly Rejected</p>
+      </div>
+          
+      <div class="actions">
+        <a href="/roadmap">View All Stage Details</a>
+        <a href="/test_index">View All Test Results</a>
       </div>
       <p class="update-notice">
         Website content is updated weekly. For the most current
@@ -211,6 +218,13 @@
     color: #62a6f3;
     font-weight: 700;
   }
+
+  .status-subcallout {
+  margin: -0.35rem 0 0.75rem;
+  color: #9fb0c5;
+  font-size: 0.9rem;
+  font-style: italic;
+}
 
   .milestone-meter {
     margin: 1.25rem 0 1.1rem;

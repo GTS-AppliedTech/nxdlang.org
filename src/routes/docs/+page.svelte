@@ -142,7 +142,7 @@
         .map((segment) => slugify(segment))
         .join('/');
       const route = routeOverrides[cleanPath] || (relativeRoute ? `/docs/${relativeRoute}` : '/docs');
-
+      
       /** @type {{ children: Record<string, any>, files: any[] }} */
       let current = root;
       parts.forEach((segment) => {
