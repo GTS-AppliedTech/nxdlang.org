@@ -56,9 +56,9 @@
       </div>
 
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 64 Cases As of 08-25-2026</p>
-        <p><strong>Positive Validation:</strong> 25 / 40 Passing</p>
-        <p><strong>Negative Validation:</strong> 17 / 24 Correctly Rejected</p>
+        <p><strong>Validation Coverage:</strong> 73 Cases As of 08-30-2026</p>
+        <p><strong>Positive Validation:</strong> 30 / 40 Passing</p>
+        <p><strong>Negative Validation:</strong> 23 / 33 Correctly Rejected</p>
       </div>
           
       <div class="actions">
