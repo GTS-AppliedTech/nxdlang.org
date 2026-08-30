@@ -5,9 +5,9 @@
   "title": "Changelog (web)",
   "description": "Project Website Changelog",
   "layer": "Root",
-  "category": "",
-  "keywords": [],
-  "site_version": "1.6.8",
+  "category": "Changelog",
+  "keywords": [website, changelog, core],
+  "site_version": "1.6.9",
   "project_version": "1.0.1",
   "status": "active"
 }
@@ -15,6 +15,54 @@
 
 
 # RO905 Changelog
+
+### Version 1.6.9
+### August 26, 2026
+
+#### New Roadmap Page
+Added a dedicated NXD Development Roadmap page.
+Introduced stage-based project progression tracking.
+Added public visibility into current project status and development direction.
+Added roadmap milestones and stage completion indicators.
+
+#### Validation Navigation
+Added dedicated Test Results Index page.
+Added direct access to compiler validation documentation.
+Added structured navigation for published validation results.
+Expanded public visibility into ongoing compiler testing efforts.
+
+#### Homepage Improvements
+Added Stage Thermometer supporting project progression tracking.
+Added "View All Stage Details" navigation.
+Added "View All Test Results" navigation.
+Improved project-status discoverability for visitors.
+
+#### Site Navigation Updates
+Added Roadmap link to site navigation.
+Added roadmap integration across site workflows.
+Improved access to project planning and milestone information.
+
+#### Roadmap Page Actions
+
+Added direct navigation links for:
+
+View All Test Results
+Project Changelog
+Website Changelog
+Contribution Guide
+
+#### Documentation System
+Expanded validation-result discoverability.
+Improved organization of testing documentation.
+Extended documentation indexing for validation-related content.
+Continued refinement of public documentation structure.
+
+#### Maintenance
+General site refinement and navigation improvements.
+Consistency updates across roadmap, documentation, and project tracking pages.
+Validation of newly added routes and navigation pathways.
+
+---
 
 ## v1.4.4
 
