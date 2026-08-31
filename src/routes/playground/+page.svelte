@@ -24,7 +24,7 @@
     </p>
 
     <div class="actions">
-      <a href="/docs">View Examples</a>
+      <a href="/docs#examples">View Examples</a>
       <a href="/docs/v1/appendix/cookbook-apndx">View Cookbook</a>
       <a href="/docs">View Language Guide</a>
     </div>

@@ -37,7 +37,8 @@
     medium_examples: 'Mid-sized examples that demonstrate common constructs.',
     large_examples: 'Larger examples that exercise more of the language.',
     xlarge_examples: 'Very large examples for architecture and scale testing.',
-    'referance_architecture': 'Referance architecture snapshots and design notes.'
+    'referance_architecture': 'Referance architecture snapshots and design notes.',
+    semantic_conformance: 'semantic rules, invariants, and backend equivalence requirements'
   };
 
   /** @type {Record<string, string>} */
@@ -49,7 +50,7 @@
     'v1/backend/NXD-D_MAPPING.md': 'docs',
     'v1/appendix/COOKBOOK_APNDX.md': 'docs',
     'v1/language-guide': 'docs',
-    'v1/appendix/golden_examples': 'docs',
+    'v1/golden_examples': 'docs',
   };
 
   /** @type {Record<string, string>} */
