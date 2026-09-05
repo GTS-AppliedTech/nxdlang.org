@@ -13,9 +13,10 @@
       <p class="status-subcallout"> Status: In Progress</p>
     </div>
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 73 Cases As of 08-30-2026</p>
-        <p><strong>Positive Validation:</strong> 33 / 40 Passing</p>
+        <p><strong>Validation Coverage:</strong> 83 Cases As of 09-05-2026</p>
+        <p><strong>Positive Validation:</strong> 38 / 40 Passing</p>
         <p><strong>Negative Validation:</strong> 23 / 33 Correctly Rejected</p>
+        <p><strong>Nim Specialty Vali7dation</strong> 08 / 10 Correctly Passingq</p>
       </div>
       <p class="update-notice">
         Website content is updated weekly. For the most current
