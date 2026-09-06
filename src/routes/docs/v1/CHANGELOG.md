@@ -7,8 +7,8 @@
   "layer": "Root",
   "category": "Changelog",
   "keywords": [website, changelog, core],
-  "site_version": "1.6.9",
-  "project_version": "1.0.1",
+  "site_version": "1.6.10",
+  "project_version": "1.1.0",
   "status": "active"
 }
 ---
@@ -16,8 +16,28 @@
 
 # RO905 Changelog
 
+### Version 1.6.10
+#### 2026-09-05
+
+### Updated
+• Validation statistics updated to reflect current compiler progress.
+• Validation coverage increased to 83 available test cases.
+• Positive validation results updated.
+• Negative validation results updated.
+• Specialty (Nim-specific) validation results updated.
+• Validation documentation revised for accuracy and consistency.
+• Individual test documentation reviewed and synchronized with current results.
+
+### Documentation
+• Improved validation notes and supporting test documentation.
+• Updated validation reporting to reflect current project status.
+• Corrected inconsistencies between validation records and published results.
+
+*No new website features were added in this update.*
+This release focuses on validation reporting accuracy, documentation maintenance, and project status updates.
+
 ### Version 1.6.9
-### August 26, 2026
+#### August 26, 2026
 
 #### New Roadmap Page
 Added a dedicated NXD Development Roadmap page.

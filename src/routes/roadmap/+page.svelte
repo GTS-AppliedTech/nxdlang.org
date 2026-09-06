@@ -14,9 +14,9 @@
     </div>
       <div class="validation-summary">
         <p><strong>Validation Coverage:</strong> 83 Cases As of 09-05-2026</p>
-        <p><strong>Positive Validation:</strong> 38 / 40 Passing</p>
-        <p><strong>Negative Validation:</strong> 23 / 33 Correctly Rejected</p>
-        <p><strong>Nim Specialty Vali7dation</strong> 08 / 10 Correctly Passingq</p>
+        <p><strong>Positive Validation:</strong> 38 / 40 Passing (95.0%)</p>
+        <p><strong>Negative Validation:</strong> 23 / 33 Correctly Rejected (69.7%)</p>
+        <p><strong>Nim Specialty Validation</strong> 08 / 10 Correctly Passing (80.0%)</p>
       </div>
       <p class="update-notice">
         Website content is updated weekly. For the most current
@@ -69,13 +69,21 @@
             <li>✅ Positive Validation Suite</li>
             <li>✅ Negative Validation Suite</li>
             <li>✅ Test Documentation Standards</li>
+            <li>✅ VS Code extention</li>
+            <li>✅ LSP - Syntax highlighting </li>
+            <li>✅ LSP - Basic code autocomplete</li>
+            <li>✅ LSP - Error diagnostics</li>
 
+            <li>🔄 LSP - File icons</li>
+            <li>🔄 LSP - Warning diagnostics</li>
+            <li>🔄 LSP - Go to definition</li>
+            <li>🔄 LSP - Hover information</li>
             <li>🔄 Parser Refinement</li>
             <li>🔄 Lexer Refinement</li>
             <li>🔄 Nim Conformance Validation</li>
+            <li>🔄 CI</li>
 
-            <li>⬜ CI/CD</li>
-            <li>⬜ LSP Foundation</li>
+            <li>⬜ CD</li>
             <li>⬜ Core Language Freeze</li>
         </ol>
         <h3>Exit Criteria</h3>
@@ -94,6 +102,8 @@
         <p class="status-callout">Validation & Technical Preview</p>
         <p class="status-subcallout">Status: ⏳ Planned</p>
         <ol>
+            <li>⬜ NXD-Nim Compiler integation</li>
+            <li>⬜ Web compilation service</li>          
             <li>⬜ Playground</li>
             <li>⬜ Playground Security Review</li>
             <li>⬜ Technical Preview</li>
