@@ -99,12 +99,12 @@
 		font-weight: 700;
 		text-decoration: none;
 		color: #1c97cc;
-		font-size: 1.05rem;
+		font-size: 1.4rem;
 	}
 
 .brand-logo {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
 }	
 

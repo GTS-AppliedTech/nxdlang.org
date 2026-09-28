@@ -95,6 +95,11 @@
 		max-width: 1000px;
 		margin: 0 auto;
 		padding: 2rem;
+		background:#07111f;
+		min-height: 100vh;
+	}
+	.faq-page h1 {
+    color: #1c97cc;
 	}
 
 

@@ -307,6 +307,6 @@
   .site-footer {
     text-align: center;
     padding: 1rem 1.25rem 2rem;
-    color: #9fb0c5;
+    color: #07111f;
   }
 </style>
