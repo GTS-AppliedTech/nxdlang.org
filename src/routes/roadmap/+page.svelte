@@ -13,7 +13,7 @@
       <p class="status-subcallout"> Status: In Progress</p>
     </div>
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 83 Cases As of 09-05-2026</p>
+        <p><strong>Validation Coverage:</strong> 83 Cases As of 09-28-2026</p>
         <p><strong>Positive Validation:</strong> 38 / 40 Passing (95.0%)</p>
         <p><strong>Negative Validation:</strong> 23 / 33 Correctly Rejected (69.7%)</p>
         <p><strong>Nim Specialty Validation</strong> 08 / 10 Correctly Passing (80.0%)</p>
@@ -73,9 +73,9 @@
             <li>✅ LSP - Syntax highlighting </li>
             <li>✅ LSP - Basic code autocomplete</li>
             <li>✅ LSP - Error diagnostics</li>
+            <li>✅ LSP - File icons</li>
+            <li>✅ LSP - Warning diagnostics</li>
 
-            <li>🔄 LSP - File icons</li>
-            <li>🔄 LSP - Warning diagnostics</li>
             <li>🔄 LSP - Go to definition</li>
             <li>🔄 LSP - Hover information</li>
             <li>🔄 Parser Refinement</li>
