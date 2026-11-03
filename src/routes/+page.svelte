@@ -25,17 +25,18 @@
       <h2>Current Status</h2>
       <p class="status">Active compiler validation and language development. NXD currently includes a functional compiler pipeline,
          semantic analysis framework, intermediate representation system, and an actively validated Nim backend.</p>
-      <p class="status-callout">Stage 2 - Core Compiler & Open Source</p>
+      <p class="status-callout">Phase 3/4/5 - Language stabilization, Nim conformance, Developer tooling, Technical preview, 
+        and Runtime exploration</p>
       <p class="status-subcallout"> Status: In Progress</p>
 
       <p>
         NXD is currently undergoing structured validation and is seeking feedback from Nim, D, Elixir,
          compiler, security, and language design contributors.
       </p>
-      <div class="milestone-meter" role="img" aria-label="Current development stage: Stage 2 of 7">
+      <div class="milestone-meter" role="img" aria-label="Current development stage: Stage 3 of 8">
         <div class="meter-heading">
           <span>Current Development Stage</span>
-          <strong>Stage 2 / 7</strong>
+          <strong>Stage 3 / 8</strong>
         </div>
         <div class="thermometer" aria-hidden="true">
           <div class="thermometer-tube">
@@ -46,12 +47,14 @@
             <span class="milestone-segment"></span>
             <span class="milestone-segment active"></span>
             <span class="milestone-segment active"></span>
+            <span class="milestone-segment active"></span>
+            <span class="milestone-segment active"></span>
           </div>
           <div class="thermometer-bulb"></div>
         </div>
         <div class="meter-caption">
-          <span>Current Stage</span>
-          <span>Core Compiler & Open Source</span>
+          <span>Current Stages</span>
+          <span>Stages 3, 4, & 5</span>
         </div>
       </div>
 
@@ -264,7 +267,7 @@
 
   .thermometer-tube {
     display: grid;
-    grid-template-rows: repeat(7, 0.55rem);
+    grid-template-rows: repeat(8, 0.85rem);
     gap: 0.2rem;
     width: min(100%, 22rem);
     padding: 0.45rem 0.55rem;
