@@ -3,6 +3,7 @@
 
 	const links = [
 		{ href: '/', label: 'Home' },
+		{ href: '/whats_new', label: 'Whats New'},
 		{ href: '/roadmap', label: 'Roadmap'},
 		{ href: '/docs', label: 'Documentation' },
 		{ href: '/compiler', label: 'Compiler' },

@@ -56,11 +56,11 @@
       </div>
 
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 103 Cases As of 09-29-2026</p>
-        <p><strong>Positive Validation:</strong> 44 / 46 Passing (95.65%)</p>
-        <p><strong>Negative Validation:</strong> 30 / 47 Correctly Rejected (63.83%)</p>
-        <p><strong>Nim Specialty Validation:</strong> 08 / 10 Correctly Passing (80.00%)</p>
-        <p><strong>Overall Pass Rate:</strong> 82 / 103 Total Correct (79.61%)</p>
+        <p><strong>Validation Coverage:</strong> 156 Cases As of 11-02-2026</p>
+        <p><strong>Positive Validation:</strong> 63 / 68 Passing (92.60%)</p>
+        <p><strong>Negative Validation:</strong> 60 / 68 Correctly Rejected (88.20%)</p>
+        <p><strong>Nim Specialty Validation:</strong> 04 / 10 Correctly Passing (40.00%)</p>
+        <p><strong>Overall Pass Rate:</strong> 127 / 156 Total Correct (81.41%)</p>
 
       </div>
           
