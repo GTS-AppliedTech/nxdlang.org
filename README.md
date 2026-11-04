@@ -1,42 +1,117 @@
-# sv
+# nxdlang.org
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Official website and documentation for the NXD programming language.
 
-## Creating a project
+This repository contains the source for [nxdlang.org](https://nxdlang.org), including the public website, language documentation, examples, and other web content for NXD.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
+## About NXD
+
+NXD is a statically typed programming language designed around a shared semantic model with support for multiple target backends.
+
+This repository is specifically for the NXD website and documentation. The compiler, language implementation, and editor tooling are maintained separately.
+
+## Technology
+
+The website is built with SvelteKit and TypeScript and is configured for static deployment.
+
+---
+
+## Development
+
+### Requirements
+
+- Node.js
+- npm
+
+**Clone the repository and install its dependencies:**
+
+```bash
+git clone https://github.com/GTS-AppliedTech/nxdlang.org.git
+cd nxdlang.org
+npm install
 ```
 
-To recreate this project with the same configuration:
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add tailwindcss="plugins:typography" eslint prettier sveltekit-adapter="adapter:static" mdsvex vitest="usages:unit,component" playwright storybook --install npm .
-```
+**Start the development server:**
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
 npm run dev
+```
 
-# or start the server and open the app in a new browser tab
+**To start the development server and automatically open the site in your browser:**
+
+```bash
 npm run dev -- --open
 ```
 
-## Building
+#### Building
 
-To create a production version of your app:
+**Create a production build with:**
 
-```sh
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+**Preview the production build locally with:**
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+The production website is deployed as a static site.
+
+---
+
+### Contributing
+
+Contributions to the NXD website and documentation are welcome.
+
+**This repository is appropriate for:**
+
+Website fixes and improvements
+Documentation corrections
+Accessibility improvements
+Responsive and mobile layout improvements
+NXD examples and explanations
+Navigation and usability improvements
+Performance improvements
+
+*Compiler and language implementation changes should be submitted to the appropriate NXD compiler repository.*
+
+*Editor integration, language server, and extension changes should be submitted to the repository responsible for those components.*
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+---
+
+Security
+
+Please do not report suspected security vulnerabilities through public issues or discussions.
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting information.
+
+---
+
+Code of Conduct
+
+Participation in the NXD project is subject to the standards described in the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+License
+
+The source code for this website is licensed under the [MIT License](LICENSE.md).
+
+Copyright © 2026 GTS Applied Technologies.
+
+See LICENSE.md for the full license.
+
+NXD and GTS Branding
+
+The MIT License applies to the source code in this repository.
+
+The NXD name, NXD logos, GTS Applied Technologies name, logos, branding, and other project identity assets are not licensed for reuse under the MIT License except where explicitly stated.
+
+
