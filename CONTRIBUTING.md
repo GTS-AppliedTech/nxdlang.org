@@ -46,7 +46,10 @@ NXD documentation should favor clarity and precision.
 Code examples should represent valid NXD syntax for the language version being documented. Avoid documenting proposed behavior as though it is already part of the language.
 
 When describing language behavior, distinguish between syntax, semantics, compiler behavior, and implementation details where that distinction matters.
-Security Issues
+
+---
+
+#### Security Issues
 
 Do not publicly disclose suspected security vulnerabilities through ordinary issues, discussions, or pull requests.
 
