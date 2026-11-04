@@ -72,7 +72,7 @@
         <a href="/test_index">View All Test Results</a>
       </div>
       <p class="update-notice">
-        Website content is updated weekly. For the most current
+        Website content is updated monthly. For the most current
        project status, validation results, development activity,
        and source code, please visit the GitHub repository.
       </p>
