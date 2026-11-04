@@ -51,8 +51,15 @@ Security Issues
 Do not publicly disclose suspected security vulnerabilities through ordinary issues, discussions, or pull requests.
 
 Please follow the instructions in [SECURITY.md](SECURITY.md).
-Conduct
+
+---
+
+#### Conduct
 
 Participation in this project is subject to the [CODE OF CONDUCT](CODE_OF_CONDUCT.md).
-Licensing
+
+---
+
+#### Licensing
+
 By contributing to this repository, you agree that your contributions may be distributed under the [MIT License](LICENSE.md) that applies to this repository.

@@ -14,7 +14,10 @@ When reporting a vulnerability, please include as much relevant information as p
     Any known workaround or mitigation
 
 If GitHub private vulnerability reporting is enabled for this repository, please use it for security-sensitive reports.
-Scope
+
+---
+
+#### Scope
 
 This repository contains the source for the official NXD website and documentation.
 
