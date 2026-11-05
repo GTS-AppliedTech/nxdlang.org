@@ -1,6 +1,6 @@
 # nxdlang.org
 
-Official website and documentation for the NXD programming language.
+*Official website and documentation for the NXD programming language.*
 
 This repository contains the source for [nxdlang.org](https://nxdlang.org), including the public website, language documentation, examples, and other web content for NXD.
 
@@ -78,35 +78,33 @@ NXD examples and explanations
 Navigation and usability improvements
 Performance improvements
 
-*Compiler and language implementation changes should be submitted to the appropriate NXD compiler repository.*
+*Compiler and language implementation changes should be submitted to the appropriate NXD compiler repository:* [nxd_language](https://github.com/GTS-AppliedTech/nxd_language).
 
-*Editor integration, language server, and extension changes should be submitted to the repository responsible for those components.*
+*Editor integration, language server, and extension changes should be submitted to the repository responsible for those components:* [nxd-extension](https://github.com/GTS-AppliedTech/nxd-extension).
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING](CONTRIBUTING.md) for contribution guidelines.
 
 ---
 
-Security
+### Security
 
 Please do not report suspected security vulnerabilities through public issues or discussions.
 
-See [SECURITY.md](SECURITY.md) for vulnerability reporting information.
+See [SECURITY](SECURITY.md) for vulnerability reporting information.
 
 ---
 
-Code of Conduct
+### Code of Conduct
 
 Participation in the NXD project is subject to the standards described in the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ---
 
-License
+### License
 
 The source code for this website is licensed under the [MIT License](LICENSE.md).
 
 Copyright © 2026 GTS Applied Technologies.
-
-See LICENSE.md for the full license.
 
 NXD and GTS Branding
 
