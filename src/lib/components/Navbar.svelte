@@ -9,6 +9,7 @@
 		{ href: '/compiler', label: 'Compiler' },
 		{ href: '/playground', label: 'Playground' },
 		{href: '/faqs', label: 'FAQs'},
+		{href: '/get_involved', label: 'Get Involved'},
 		{ href: '/contact', label: 'Contact Us' }
 	];
 
