@@ -4,6 +4,15 @@
 </svelte:head>
 
 <main class="roadmap-page">
+
+  <header class="roadmap-header">
+    <h1>NXD Development Roadmap</h1>
+    <p>
+      Follow the development of the NXD language, compiler, tooling,
+      backends, and ecosystem.
+    </p>
+  </header>
+
 <section>
     <div class="status-block">
       <h2>Current Status</h2>
@@ -361,6 +370,27 @@
 </main>
   
  <style> 
+  .roadmap-header {
+    width: min(900px, 100%);
+    margin: 0 auto 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #334155;
+    border-radius: 1rem;
+    background: #07111f;
+  }
+
+  .roadmap-header h1 {
+    margin: 0 0 0.75rem;
+    color: #f5f7fb;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    line-height: 1;
+  }
+
+  .roadmap-header p {
+    margin: 0;
+    color: #dce7f5;
+    line-height: 1.7;
+  }
   .roadmap-page {
     min-height: 100vh;
     padding: 2.5rem 1.25rem;

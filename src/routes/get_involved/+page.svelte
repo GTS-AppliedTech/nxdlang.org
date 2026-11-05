@@ -198,9 +198,9 @@
       <h2>Historical and Reference Development</h2>
 
       <p>
-        The
+        The archived
         <a href="https://github.com/GTS-AppliedTech/nxd-rust-frontend">
-          archived NXD Python frontend repository
+            NXD frontend repository
         </a>
         preserves part of NXD's transition from its original Python frontend
         toward its newer Rust-based frontend architecture.
@@ -235,21 +235,24 @@
         contributions.
       </p>
 
-      <p>
-        If you are interested in compiler or language development, start with
+      <ul>
+        <li>If you are interested in compiler or language development, start with
         the
         <a href="https://github.com/GTS-AppliedTech/nxd_language">
           NXD language and compiler
         </a>.
-        For editor and IDE development, visit the
+        </li>
+        <li>For editor and IDE development, visit the
         <a href="https://github.com/GTS-AppliedTech/nxd-extension">
           NXD extension project
         </a>.
-        For documentation or web development, visit the
+        </li>
+        <li>For documentation or web development, visit the
         <a href="https://github.com/GTS-AppliedTech/nxdlang.org">
           nxdlang website project
         </a>.
-      </p>
+        </li>
+    </ul>
     </section>
 
 
@@ -268,5 +271,125 @@
       </p>
     </section>
 
+    <footer class="site-footer">
+        <p>© 2026 G.T.S. Applied Technologies LLC</p>
+    </footer>
   </article>
 </main>
+
+<style>
+  .get-involved {
+    min-height: 100vh;
+    padding: 2.5rem 1.25rem;
+    background: linear-gradient(135deg, #07111f 0%, #13253e 100%);
+    color: #f5f7fb;
+  }
+
+  .get-involved article {
+    width: min(900px, 100%);
+    margin: 0 auto;
+  }
+
+  /* Main content cards */
+  .get-involved header,
+  .get-involved section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #334155;
+    border-radius: 1rem;
+    background: #07111f;
+  }
+
+  .get-involved h1,
+  .get-involved h2,
+  .get-involved h3 {
+    color: #f5f7fb;
+  }
+
+  .get-involved h1 {
+    margin: 0 0 0.5rem;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    line-height: 1;
+  }
+
+  .get-involved h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .get-involved h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #7ad7ff;
+  }
+
+  .get-involved p,
+  .get-involved li {
+    color: #dce7f5;
+    line-height: 1.7;
+  }
+
+  .get-involved p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .get-involved ul,
+  .get-involved ol {
+    margin: 0 0 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .get-involved li {
+    margin-bottom: 0.35rem;
+  }
+
+  .get-involved li::marker {
+    color: #62a6f3;
+  }
+
+  .get-involved strong {
+    color: #f5f7fb;
+  }
+
+  /* Inline links, NOT button/card links */
+  .get-involved a {
+    color: #62a6f3;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .get-involved a:hover {
+    color: #7ad7ff;
+  }
+
+  .get-involved a:focus-visible {
+    outline: 2px solid #7ad7ff;
+    outline-offset: 3px;
+    border-radius: 0.2rem;
+  }
+  .site-footer {
+    width: min(900px, 100%);
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 1.25rem 2rem;
+    color: #9fb0c5;
+  }
+
+  @media (max-width: 600px) {
+    .get-involved {
+      padding: 2rem 1rem;
+    }
+
+    .get-involved header,
+    .get-involved section {
+      padding: 1rem;
+    }
+
+    .get-involved ul,
+    .get-involved ol {
+      padding-left: 1.25rem;
+    }
+  }
+</style>
