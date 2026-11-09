@@ -23,11 +23,11 @@
       <p class="status-subcallout"> Status: In Progress</p>
     </div>
       <div class="validation-summary">
-        <p><strong>Validation Coverage:</strong> 156 Cases As of 11-09-2026</p>
+        <p><strong>Validation Coverage:</strong> 146 Cases As of 11-09-2026</p>
         <p><strong>Positive Validation:</strong> 68 / 68 Correctly Passing (100%)</p>
         <p><strong>Negative Validation:</strong> 66 / 68 Correctly Rejected (97.06%)</p>
         <p><strong>Nim Specialty Validation</strong> 04 / 10 Correctly Passing/Failing (40.00%)</p>
-        <p><strong>Overall Pass Rate:</strong> 138 / 156 Total Correctly Passing/Failing (87.34%)</p>
+        <p><strong>Overall Pass Rate:</strong> 138 / 146 Total Correctly Passing/Failing (94.52%)</p>
 
       </div>
       <div class="roadmap-note">
